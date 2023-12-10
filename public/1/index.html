@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=Join&#32;me&#32;as&#32;we&#32;delve&#32;into&#32;the&#32;captivating&#32;realms&#32;of&#32;the&#32;Collatz&#32;Conjecture,&#32;an&#32;enduring&#32;enigma&#32;in&#32;the&#32;world&#32;of&#32;mathematics.&#32;In&#32;this&#32;blog&#32;post,&#32;I&#32;explore&#32;the&#32;depths&#32;of&#32;the&#32;&#39;3x&#32;&#43;&#32;1&#32;problem&#39;&#32;using&#32;Python&#32;as&#32;our&#32;guide.&#32;I&#39;ll&#32;walk&#32;you&#32;through&#32;the&#32;fundamental&#32;concepts&#32;of&#32;the&#32;conjecture,&#32;followed&#32;by&#32;a&#32;detailed,&#32;step-by-step&#32;Python&#32;tutorial&#32;to&#32;unravel&#32;its&#32;mysteries&#32;visually.&#32;This&#32;post&#32;is&#32;perfect&#32;for&#32;anyone&#32;fascinated&#32;by&#32;mathematical&#32;puzzles,&#32;from&#32;students&#32;and&#32;educators&#32;to&#32;coding&#32;enthusiasts&#32;and&#32;lifelong&#32;learners.&#32;Together,&#32;we&#39;ll&#32;discover&#32;how&#32;simple&#32;mathematical&#32;rules&#32;can&#32;create&#32;complex&#32;and&#32;mesmerizing&#32;patterns,&#32;offering&#32;insights&#32;into&#32;the&#32;world&#32;of&#32;numbers&#32;and&#32;coding&#32;in&#32;a&#32;fun&#32;and&#32;engaging&#32;way.>
+  <meta name="keywords" content=[Collatz&#32;Conjecture&#32;Exploration,&#32;Personal&#32;Journey&#32;in&#32;Mathematics,&#32;Python&#32;Visualization&#32;Guide,&#32;Understanding&#32;3x&#32;&#43;&#32;1&#32;Problem,&#32;Exploring&#32;Mathematical&#32;Puzzles,&#32;My&#32;Experience&#32;with&#32;Number&#32;Theory,&#32;Python&#32;Coding&#32;for&#32;Math,&#32;Matplotlib&#32;for&#32;Beginners,&#32;Demystifying&#32;Mathematical&#32;Conjectures,&#32;Interactive&#32;Math&#32;Learning&#32;Experience,&#32;STEM&#32;Education&#32;Insights,&#32;Mathematics&#32;and&#32;Coding&#32;Fusion,&#32;Personal&#32;Math&#32;Adventures,&#32;Data&#32;Visualization&#32;Techniques,&#32;Programming&#32;in&#32;Education,&#32;Collatz&#32;Conjecture,&#32;Mathematics&#32;Blog,&#32;Python&#32;Visualization,&#32;3x&#32;&#43;&#32;1&#32;Problem,&#32;Mathematical&#32;Puzzles,&#32;Number&#32;Theory,&#32;Python&#32;Programming,&#32;Matplotlib&#32;Tutorial,&#32;Mathematical&#32;Conjectures,&#32;Interactive&#32;Math&#32;Learning,&#32;STEM&#32;Education,&#32;Coding&#32;in&#32;Mathematics,&#32;Math&#32;and&#32;Python,&#32;Data&#32;Visualization,&#32;Educational&#32;Programming,&#32;Reese&#32;Gerjekian,&#32;REG&#32;Blog]>
+  <meta name="author" content=Reese&#32;Gerjekian>
+  <meta name="google-adsense-account" content="ca-pub-3576858098464651">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="icon" href="/images/favicon.png" />
+  <title>Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture</title>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TKGQXYBKE4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-TKGQXYBKE4', { 'anonymize_ip': false });
+}
+</script>
+
+  
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-TKGQXYBKE4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3576858098464651"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+  <div class="logo">
+    <a href="/">REG Blog</a>
+  </div>
+  <div class="links">
+    <a href="/">Home</a>
+    <a href="/categories">Categories</a>
+    <div class="toggle">
+      <svg
+        width="20px"
+        height="20px"
+        viewBox="-0.14 0 20.03 20.03"
+        fill="#000000"
+      >
+        <g id="moon-alt" transform="translate(-2.25 -2)">
+          <path
+            id="secondary"
+            fill="#ffe01b"
+            d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"
+          ></path>
+        </g>
+      </svg>
+      <div class="ball" ></div>
+      <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+        <g id="sun" transform="translate(-2 -2)">
+          <circle
+            id="secondary"
+            fill="#ffe01b"
+            cx="4"
+            cy="4"
+            r="4"
+            transform="translate(8 8)"
+          ></circle>
+          <path
+            id="primary"
+            d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+            fill="none"
+            stroke="#ffe01b"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+        </g>
+      </svg>
+    </div>
+  </div>
+</nav>
+
+    
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-TKGQXYBKE4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=Join&#32;me&#32;as&#32;we&#32;delve&#32;into&#32;the&#32;captivating&#32;realms&#32;of&#32;the&#32;Collatz&#32;Conjecture,&#32;an&#32;enduring&#32;enigma&#32;in&#32;the&#32;world&#32;of&#32;mathematics.&#32;In&#32;this&#32;blog&#32;post,&#32;I&#32;explore&#32;the&#32;depths&#32;of&#32;the&#32;&#39;3x&#32;&#43;&#32;1&#32;problem&#39;&#32;using&#32;Python&#32;as&#32;our&#32;guide.&#32;I&#39;ll&#32;walk&#32;you&#32;through&#32;the&#32;fundamental&#32;concepts&#32;of&#32;the&#32;conjecture,&#32;followed&#32;by&#32;a&#32;detailed,&#32;step-by-step&#32;Python&#32;tutorial&#32;to&#32;unravel&#32;its&#32;mysteries&#32;visually.&#32;This&#32;post&#32;is&#32;perfect&#32;for&#32;anyone&#32;fascinated&#32;by&#32;mathematical&#32;puzzles,&#32;from&#32;students&#32;and&#32;educators&#32;to&#32;coding&#32;enthusiasts&#32;and&#32;lifelong&#32;learners.&#32;Together,&#32;we&#39;ll&#32;discover&#32;how&#32;simple&#32;mathematical&#32;rules&#32;can&#32;create&#32;complex&#32;and&#32;mesmerizing&#32;patterns,&#32;offering&#32;insights&#32;into&#32;the&#32;world&#32;of&#32;numbers&#32;and&#32;coding&#32;in&#32;a&#32;fun&#32;and&#32;engaging&#32;way.>
+  <meta name="keywords" content=[Collatz&#32;Conjecture&#32;Exploration,&#32;Personal&#32;Journey&#32;in&#32;Mathematics,&#32;Python&#32;Visualization&#32;Guide,&#32;Understanding&#32;3x&#32;&#43;&#32;1&#32;Problem,&#32;Exploring&#32;Mathematical&#32;Puzzles,&#32;My&#32;Experience&#32;with&#32;Number&#32;Theory,&#32;Python&#32;Coding&#32;for&#32;Math,&#32;Matplotlib&#32;for&#32;Beginners,&#32;Demystifying&#32;Mathematical&#32;Conjectures,&#32;Interactive&#32;Math&#32;Learning&#32;Experience,&#32;STEM&#32;Education&#32;Insights,&#32;Mathematics&#32;and&#32;Coding&#32;Fusion,&#32;Personal&#32;Math&#32;Adventures,&#32;Data&#32;Visualization&#32;Techniques,&#32;Programming&#32;in&#32;Education,&#32;Collatz&#32;Conjecture,&#32;Mathematics&#32;Blog,&#32;Python&#32;Visualization,&#32;3x&#32;&#43;&#32;1&#32;Problem,&#32;Mathematical&#32;Puzzles,&#32;Number&#32;Theory,&#32;Python&#32;Programming,&#32;Matplotlib&#32;Tutorial,&#32;Mathematical&#32;Conjectures,&#32;Interactive&#32;Math&#32;Learning,&#32;STEM&#32;Education,&#32;Coding&#32;in&#32;Mathematics,&#32;Math&#32;and&#32;Python,&#32;Data&#32;Visualization,&#32;Educational&#32;Programming,&#32;Reese&#32;Gerjekian,&#32;REG&#32;Blog]>
+  <meta name="author" content=ZgotmplZ>
+  <meta name="google-adsense-account" content="ca-pub-3576858098464651">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css">
+  <title>Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture</title>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TKGQXYBKE4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-TKGQXYBKE4', { 'anonymize_ip': false });
+}
+</script>
+
+  
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-TKGQXYBKE4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3576858098464651"
+     crossorigin="anonymous"></script>
+</head>
+<div class="single">
+  <div class="singleHead">
+    <div class="singleHeadTexts">
+      <h1 class="singleHeadTitle">Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture</h1>
+      <p class="singleHeadDesc">Join me as we delve into the captivating realms of the Collatz Conjecture, an enduring enigma in the world of mathematics. In this blog post, I explore the depths of the &#39;3x &#43; 1 problem&#39; using Python as our guide. I&#39;ll walk you through the fundamental concepts of the conjecture, followed by a detailed, step-by-step Python tutorial to unravel its mysteries visually. This post is perfect for anyone fascinated by mathematical puzzles, from students and educators to coding enthusiasts and lifelong learners. Together, we&#39;ll discover how simple mathematical rules can create complex and mesmerizing patterns, offering insights into the world of numbers and coding in a fun and engaging way.</p>
+      <div class="singleHeadDetail">
+        <img src=/images/reg-avatar.png loading="lazy" alt="" class="singleAvatar">
+        <span>
+          <a href=https://reg-blog.com/authors/reese-gerjekian/>Reese Gerjekian</a>
+          
+        </span>
+        
+        <a href=https://reg-blog.com/categories/python/ class="singleCategory">Python</a>
+        
+        <a href=https://reg-blog.com/categories/math/ class="singleCategory">Math</a>
+        
+        <a href=https://reg-blog.com/categories/programming/ class="singleCategory">Programming</a>
+        
+        <a href=https://reg-blog.com/categories/education/ class="singleCategory">Education</a>
+        
+      </div>
+      <time>Dec 9, 2023</time>
+    </div>
+    <img src=/images/collatz.webp alt=Unlocking&#32;the&#32;Mysteries&#32;of&#32;Numbers:&#32;A&#32;Python&#32;Adventure&#32;into&#32;the&#32;Collatz&#32;Conjecture class="singleHeadImg">
+  </div>
+  <div class="singleBottom">
+    <div class="singleContent"><p>The Collatz Conjecture is a mathematical hypothesis that has puzzled mathematicians for decades. Also known as the &ldquo;3x + 1 problem&rdquo;, it involves taking any positive integer and applying a simple process: if the number is even, divide it by two; if it&rsquo;s odd, triple it and add one. The conjecture states that no matter what number you start with, you will always eventually reach 1.</p>
+<p>In this post, we&rsquo;ll explore this conjecture using Python, specifically visualizing the journey of a number as it goes through this process.</p>
+<h3 id="setting-up-the-environment">Setting Up the Environment</h3>
+<p>First, we need to import the necessary module for plotting our results. We&rsquo;ll use <code>matplotlib.pyplot</code> for this purpose.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span></code></pre></div><h3 id="initializing-the-axes">Initializing the Axes</h3>
+<p>Next, we set up our x-axis and y-axis lists. The x-axis (<code>iteration_num_list</code>) will record the number of iterations, and the y-axis (<code>num_list</code>) will record the number at each iteration.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>iteration_num_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>num_list <span style="color:#f92672">=</span> []
+</span></span></code></pre></div><h3 id="input-and-validation">Input and Validation</h3>
+<p>We need to ensure that the user enters a positive number to start the process. The following code snippet takes care of this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>positive <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">not</span> positive:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Enter any number: &#34;</span>)
+</span></span><span style="display:flex;"><span>    num <span style="color:#f92672">=</span> float(input())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> num <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;INVALID, ENTER POSITIVE NUMBER: &#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        positive <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        num_list<span style="color:#f92672">.</span>append(num)
+</span></span></code></pre></div><h3 id="the-collatz-process">The Collatz Process</h3>
+<p>Now comes the core part of our script: applying the Collatz Conjecture to the input number.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>num <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> num <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> num <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> num <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        num <span style="color:#f92672">=</span> num <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        num <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> num <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    iteration_num_list<span style="color:#f92672">.</span>append(iteration_num_list[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    num_list<span style="color:#f92672">.</span>append(num)
+</span></span></code></pre></div><h3 id="visualizing-the-results">Visualizing the Results</h3>
+<p>Finally, we plot our results using <code>matplotlib.pyplot</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>plot(iteration_num_list, num_list)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#39;iteration&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#39;x in 3(x) + 1&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;3(x) + 1&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p>This graph provides a visual representation of how the number evolves through the process.</p>
+<h3 id="completed-code">Completed Code</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># importing the required module</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># declare x-axis</span>
+</span></span><span style="display:flex;"><span>iteration_num_list <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>iteration_num_list<span style="color:#f92672">.</span>append(x)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># check for positive number</span>
+</span></span><span style="display:flex;"><span>positive <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> positive <span style="color:#f92672">==</span> <span style="color:#66d9ef">False</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Enter any number: &#34;</span>)
+</span></span><span style="display:flex;"><span>    num <span style="color:#f92672">=</span> float(input())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> num <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;INVALID, ENTER POSITIVE NUMBER: &#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># declare y-axis</span>
+</span></span><span style="display:flex;"><span>num_list <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>num_list<span style="color:#f92672">.</span>append(num)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>num <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> num <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> num <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># if num is even, then divide by 2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> num <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        print(num)
+</span></span><span style="display:flex;"><span>        num <span style="color:#f92672">=</span> num <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># add 1 to the x-axis</span>
+</span></span><span style="display:flex;"><span>        x <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        iteration_num_list<span style="color:#f92672">.</span>append(x)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># add num to the y-axis</span>
+</span></span><span style="display:flex;"><span>        num_list<span style="color:#f92672">.</span>append(num)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># if num is odd, repeat 3(num)+1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(num)
+</span></span><span style="display:flex;"><span>        num <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> num <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># add 1 to the x-axis</span>
+</span></span><span style="display:flex;"><span>        x <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        iteration_num_list<span style="color:#f92672">.</span>append(x)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># add num to the y-axis</span>
+</span></span><span style="display:flex;"><span>        num_list<span style="color:#f92672">.</span>append(num)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(num)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Done!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plotting the points</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>plot(iteration_num_list, num_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># naming the x axis</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#39;iteration&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># naming the y axis</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#39;x in 3(x) + 1&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># giving a title to my graph</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;3(x) + 1&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># function to show the plot</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><h3 id="conclusion">Conclusion</h3>
+<p>The Collatz Conjecture, simple in its definition, leads to surprisingly complex behavior. Through this Python exercise, we get a glimpse of the intriguing patterns that emerge from such a simple algorithm.</p>
+</div>
+    <div class="singleRightBar">
+      <body>
+  <div class="rightBar">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3576858098464651"
+       crossorigin="anonymous"></script>
+    
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-3576858098464651"
+        data-ad-slot="9082058765"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</body>
+
+    </div>
+  </div>
+</div>
+
+    <div class="footer">
+  <div class="footerLinks">
+    <a href="/">REG Blog</a> |
+    <a href="/categories">categories</a> |
+    <a href="/sitemap.xml">sitemap</a>
+  </div>
+  <div class="social">
+    <a href="https://www.youtube.com/@RhyssFilms">
+      <svg
+        width="20"
+        zoomAndPan="magnify"
+        viewBox="0 0 30 30.000001"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        version="1.0"
+      >
+        <defs>
+          <clipPath id="269647c057">
+            <path
+              d="M 0.484375 0 L 29.515625 0 L 29.515625 29.03125 L 0.484375 29.03125 Z M 0.484375 0 "
+              clip-rule="nonzero"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#269647c057)">
+          <path
+            fill="#e52d27"
+            d="M 29.515625 24.621094 C 29.515625 27.054688 27.539062 29.03125 25.105469 29.03125 L 4.894531 29.03125 C 2.460938 29.03125 0.484375 27.054688 0.484375 24.621094 L 0.484375 4.414062 C 0.484375 1.980469 2.460938 0 4.894531 0 L 25.105469 0 C 27.539062 0 29.515625 1.980469 29.515625 4.414062 Z M 29.515625 24.621094 "
+            fill-opacity="1"
+            fill-rule="nonzero"
+          />
+        </g>
+        <path
+          fill="#ffffff"
+          d="M 25.289062 14.746094 C 25.289062 16.351562 25.289062 18.050781 24.933594 19.605469 C 24.679688 20.703125 23.785156 21.503906 22.707031 21.625 C 20.15625 21.910156 17.570312 21.914062 15.003906 21.910156 C 12.429688 21.910156 9.851562 21.910156 7.300781 21.625 C 6.222656 21.503906 5.324219 20.703125 5.074219 19.605469 C 4.714844 18.050781 4.714844 16.351562 4.714844 14.746094 C 4.714844 13.140625 4.71875 11.4375 5.074219 9.882812 C 5.324219 8.789062 6.21875 7.984375 7.300781 7.863281 C 9.851562 7.578125 12.433594 7.578125 15.003906 7.578125 C 17.570312 7.578125 20.152344 7.578125 22.707031 7.863281 C 23.78125 7.984375 24.679688 8.789062 24.933594 9.882812 C 25.289062 11.4375 25.289062 13.140625 25.289062 14.746094 Z M 25.289062 14.746094 "
+          fill-opacity="1"
+          fill-rule="nonzero"
+        />
+        <path
+          fill="#e52d27"
+          d="M 12.835938 10.917969 L 12.835938 18.609375 L 18.808594 14.761719 Z M 12.835938 10.917969 "
+          fill-opacity="1"
+          fill-rule="nonzero"
+        />
+      </svg>
+    </a>
+    <a href="https://www.facebook.com/rgerjekian" aria-label="Facebook">
+      <svg
+        width="20"
+        zoomAndPan="magnify"
+        viewBox="0 0 30 30.000001"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        version="1.0"
+      >
+        <defs>
+          <clipPath id="82ef769079">
+            <path
+              d="M 0.484375 0 L 29.515625 0 L 29.515625 29.03125 L 0.484375 29.03125 Z M 0.484375 0 "
+              clip-rule="nonzero"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#82ef769079)">
+          <path
+            fill="#1a4789"
+            d="M 29.515625 24.617188 C 29.515625 27.054688 27.542969 29.027344 25.105469 29.027344 L 4.898438 29.027344 C 2.460938 29.027344 0.484375 27.054688 0.484375 24.617188 L 0.484375 4.410156 C 0.484375 1.972656 2.460938 -0.00390625 4.898438 -0.00390625 L 25.105469 -0.00390625 C 27.542969 -0.00390625 29.515625 1.972656 29.515625 4.410156 Z M 29.515625 24.617188 "
+            fill-opacity="1"
+            fill-rule="nonzero"
+          />
+        </g>
+        <path
+          fill="#ffffff"
+          d="M 19.722656 16.769531 L 20.191406 13.128906 L 16.585938 13.128906 L 16.585938 10.804688 C 16.585938 9.75 16.878906 9.03125 18.390625 9.03125 L 20.316406 9.03125 L 20.316406 5.777344 C 19.984375 5.730469 18.839844 5.632812 17.507812 5.632812 C 14.730469 5.632812 12.828125 7.328125 12.828125 10.445312 L 12.828125 13.128906 L 9.683594 13.128906 L 9.683594 16.769531 L 12.828125 16.769531 L 12.828125 26.109375 L 16.585938 26.109375 L 16.585938 16.769531 Z M 19.722656 16.769531 "
+          fill-opacity="1"
+          fill-rule="nonzero"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+
+  </div>
+  <script src="/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    fetch('/index.json')
+    .then(response => response.json())
+    .then(posts => {
+        var fuse = new Fuse(posts, {
+            keys: ['title', 'description']
+        });
+
+        document.getElementById('search-input').addEventListener('input', function() {
+            var results = fuse.search(this.value);
+            var resultsHtml = results.map(post => `<a href="${post.item.url}">${post.item.title}</a>`).join('');
+            document.getElementById('search-results').innerHTML = resultsHtml;
+        });
+    });
+});
+
+  </script>
+</body>
+</html>
