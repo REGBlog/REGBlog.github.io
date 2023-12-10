@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
   <title>{{ .Title }}</title>
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
 </head>
 <body>
   <div class="container">
