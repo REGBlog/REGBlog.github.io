@@ -8,6 +8,7 @@ paginate = 4
 [params]
   description = "The fastest blog"
   dateFormat = "Jan 2, 2006"
+  env = "PUBLIC"
 
 [taxonomies]
   category = "categories"
