@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on REG Blog</title>
+    <link>https://reg-blog.com/categories/math/</link>
+    <description>Recent content in Math on REG Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Dec 2023 19:55:01 -0500</lastBuildDate>
+    <atom:link href="https://reg-blog.com/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture</title>
+      <link>https://reg-blog.com/1/</link>
+      <pubDate>Sat, 09 Dec 2023 19:55:01 -0500</pubDate>
+      <guid>https://reg-blog.com/1/</guid>
+      <description>The Collatz Conjecture is a mathematical hypothesis that has puzzled mathematicians for decades. Also known as the &amp;ldquo;3x + 1 problem&amp;rdquo;, it involves taking any positive integer and applying a simple process: if the number is even, divide it by two; if it&amp;rsquo;s odd, triple it and add one. The conjecture states that no matter what number you start with, you will always eventually reach 1.&#xA;In this post, we&amp;rsquo;ll explore this conjecture using Python, specifically visualizing the journey of a number as it goes through this process.</description>
+    </item>
+  </channel>
+</rss>
