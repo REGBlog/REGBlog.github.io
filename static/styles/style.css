@@ -264,7 +264,6 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  margin-top: 50px;
 }
 
 .singleContent {
@@ -339,6 +338,11 @@ a {
   }
 
   .singleHeadImg {
+    display: none;
+  }
+
+  /* Gets rid of white space below date. may need to remove when google adsense activates to be able to display ads in this section */
+  .singleRightBar {
     display: none;
   }
 
