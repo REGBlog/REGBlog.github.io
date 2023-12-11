@@ -1,1 +1,1 @@
-# REGBlog.github.io
+# REG Blog
