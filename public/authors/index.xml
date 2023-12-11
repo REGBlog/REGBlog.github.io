@@ -15,5 +15,12 @@
       <guid>https://reg-blog.com/authors/reese-gerjekian/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Reese Gerjekian</title>
+      <link>https://reg-blog.com/authors/author-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://reg-blog.com/authors/author-1/</guid>
+      <description>Author description goes here. This is a brief bio of the author. hello</description>
+    </item>
   </channel>
 </rss>

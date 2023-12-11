@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section id="authors">
+    {{ range .Pages }}
+    <article class="author">
+        <header>
+            <img src="{{ .Params.avatar }}" alt="{{ .Title }}'s avatar" class="author-avatar">
+            <h2 class="author-name">{{ .Title }}</h2>
+        </header>
+        <section class="author-description">
+            {{ .Content }}
+        </section>
+        <section class="author-categories">
+            <h3>Categories</h3>
+            <ul>
+                {{ range .Params.categories }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </section>
+        <footer class="author-socials">
+            {{ range $key, $value := .Params.socials }}
+            <a href="{{ $value.url }}">{{ $key | title }}</a><br>
+            {{ end }}
+        </footer>
+    </article>
+    {{ end }}
+</section>
+{{ end }}
