@@ -1,10 +1,11 @@
 {{ define "main" }}
-<section id="authors">
+<section id="authors-profiles">
     {{ range .Pages }}
+    {{ if and (eq .Type "authors") (ne .Title "Reese Gerjekian") }}
     <article class="author">
         <header>
-            <img src="{{ .Params.avatar }}" alt="{{ .Title }}'s avatar" class="author-avatar">
-            <h2 class="author-name">{{ .Title }}</h2>
+            <img src="{{ .Params.profilePicture }}" alt="{{ .Params.profileName }}'s avatar" class="author-avatar">
+            <h2 class="author-name">{{ .Params.profileName }}</h2>
         </header>
         <section class="author-description">
             {{ .Content }}
@@ -12,7 +13,7 @@
         <section class="author-categories">
             <h3>Categories</h3>
             <ul>
-                {{ range .Params.categories }}
+                {{ range .Params.profileCategories }}
                 <li>{{ . }}</li>
                 {{ end }}
             </ul>
@@ -24,5 +25,8 @@
         </footer>
     </article>
     {{ end }}
+    {{ end }}
 </section>
 {{ end }}
+
+

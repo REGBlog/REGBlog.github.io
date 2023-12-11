@@ -16,3 +16,7 @@ paginate = 4
 [taxonomies]
   category = "categories"
   author = "authors"
+
+[[menu.main]]
+  name = "Authors"
+  url = "authors/"

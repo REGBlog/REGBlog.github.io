@@ -1,7 +1,7 @@
 +++
-title = "Reese Gerjekian"
-avatar = "/images/reg-avatar.png"
-categories = ["Programming", "Cooking"]
+profileName = "Reese Gerjekian"
+profilePicture = "/images/reg-avatar.png"
+profileCategories = ["Programming", "Cooking"]
 
 [socials.instagram]
 url = "https://www.instagram.com/rgerjeki/"

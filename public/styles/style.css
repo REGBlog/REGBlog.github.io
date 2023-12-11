@@ -316,7 +316,7 @@ a {
 /* RIGHTBAR END */
 
 /* AUTHORS START */
-#authors {
+#authors-profiles {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
