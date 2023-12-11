@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="list">
   {{ range .Paginator.Pages }}
-  {{ if ne .Section "authors" }}
   <div class="listItem">
     <img
       src={{
@@ -30,7 +29,6 @@
       </div>
     </div>
   </div>
-  {{ end }}
   {{ end }} {{ template "_internal/pagination.html" . }}
 </div>
 {{ end }}
