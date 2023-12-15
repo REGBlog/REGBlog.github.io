@@ -247,12 +247,14 @@ a {
   color: var(--textSoft);
   font-size: 14px;
   overflow: auto;
+
 }
 
 .singleHeadImg {
   flex: 1;
   max-height: 350px;
   object-fit: cover;
+  overflow: auto;
 }
 
 .singleBottom {
@@ -265,12 +267,14 @@ a {
   flex: 3;
   font-size: 20px;
   line-height: 32px;
+  overflow: auto;
 }
 
 .singleContent p,
 .singleContent h1,
 .singleContent h2,
 .singleContent h3 {
+  overflow: auto;
   margin: 20px 0px;
 }
 
