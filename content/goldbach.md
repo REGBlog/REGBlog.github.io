@@ -18,7 +18,7 @@ This blog post delves into the fascinating world of the Goldbach Conjecture, acc
 
 In this section, we'll break down the Python code into smaller, more digestible parts, perfect for understanding the logic and functionality behind each segment.
 
-1. Initializing Variables
+**Initializing Variables**
 
 ```python
 num = 3 
@@ -27,7 +27,7 @@ prime = []
 
 We begin by initializing `num` at 3, since 2 is the only even prime number and the Goldbach Conjecture applies to even integers. We also create an empty list `prime` to store the prime numbers we find.
 
-2. Prime Number Checker Loop
+**Prime Number Checker Loop**
 
 ```python
 while num != 100:
@@ -44,7 +44,7 @@ while num != 100:
 
 In this segment, we use a `while` loop to check each number up to 100 to see if it's prime. The inner `for` loop checks if the current number (`num`) is divisible by any number between 2 and itself. If a factor is found, the `for` loop breaks; if not, `num` is a prime number and gets added to our `prime` list.
 
-3. Goldbach's Conjecture Test
+**Goldbach's Conjecture Test**
 
 ```python
 end = False
@@ -69,7 +69,7 @@ while not end:
 
 Here, we have a `while` loop that continues until `end` is `True`. For each number in our `prime` list, we add it to the first number in the list and check if the sum is even. If we find a sum that isn't even, we print "STOP" and set `end` to `True`, ending the loop. After each iteration, we remove the first element from the list to test the next set of sums. The loop ends when all primes have been tested or an odd sum is found.
 
-4. Completed Code
+**Completed Code**
 
 ```python
 # Program to check if a number is prime or not
@@ -155,3 +155,12 @@ The role of programming in exploring and testing the Goldbach Conjecture has bee
 ### Conclusion
 
 In conclusion, our exploration of the Goldbach Conjecture through a Python programming lens and its historical and mathematical context underscores the mysterious charm of one of number theory's most enduring puzzles. The programming journey provides a practical and interactive approach to understanding the conjecture, while the historical insights remind us of the rich legacy of mathematical inquiry. Despite the advances in computational methods that continue to test its bounds, the Goldbach Conjecture remains a compelling testament to the mysteries of mathematics, challenging and inspiring mathematicians and enthusiasts alike. This journey reflects the intricate relationship between mathematics and programming and highlights the enduring quest for knowledge and the unrelenting human spirit in seeking to unravel the unknown.
+
+References
+==========
+
+Numberphile. (2017). Goldbach Conjecture - Numberphile [YouTube Video]. In *YouTube*. https://www.youtube.com/watch?v=MxiTG96QOxw
+
+Wang, Y. (2002). *The Goldbach conjecture*. World Scientific.
+
+Wikipedia Contributors. (2021, February 6). *Goldbach's conjecture*. Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Goldbach%27s_conjecture
