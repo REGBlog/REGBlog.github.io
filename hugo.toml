@@ -1,0 +1,18 @@
+baseURL = 'https://reg-blog.com/'
+languageCode = 'en-us'
+title = 'REG Blog'
+googleAnalytics = "G-TKGQXYBKE4"
+enableRobotsTXT = true
+
+paginate = 4
+
+[params]
+  description = "Welcome to REG Blog, the personal digital space of Reese Gerjekian, where technology meets creativity and personal reflection. As a passionate tech enthusiast and content creator, I delve into the intricate world of Python Programming, Web Development, Cybersecurity, and AWS, bringing complex concepts into clear, relatable terms. Beyond the bytes and codes, I share my culinary adventures, offering mouth-watering recipes that blend simplicity with flavor. But that's not all – REG Blog is also a gateway into the art of filmmaking and editing, reflecting my experiences with RhyssFilms on YouTube. Here, I unravel the behind-the-scenes magic of creating compelling visual narratives. As I journey through life, REG Blog is expanding its horizons. Get ready to explore diverse topics like video gaming, insights into YouTube and streaming personalities, family dynamics, the profound realms of philosophy and religion, and the essential mental and physical health aspects. REG Blog is more than a tech blog; it reflects my journey through life, sharing knowledge, experiences, and insights on a broad spectrum of subjects. Join me in this adventure of continuous learning and personal growth!"
+  keywords = "Reese Gerjekian, REG-Blog, REG Blog, reg blog, REG, Blog, Python, Cooking, Dinner, Lunch, Breakfast, code, programming, filming, films, videos"
+  author = "Reese Gerjekian"
+  dateFormat = "Jan 2, 2006"
+  env = "PUBLIC"
+
+[taxonomies]
+  category = "categories"
+  author = "authors"
