@@ -36,15 +36,4 @@ precacheAndRoute([
     { url: '/404.html', revision: '383676' },
 ]);
 
-self.addEventListener('beforeinstallprompt', event => { 
-    event.preventDefault(); 
-    const installButton = document.getElementById('install-button'); 
-    if (installButton) { 
-      installButton.style.display = 'block'; 
-      installButton.addEventListener('click', () => { 
-        event.prompt(); 
-      }); 
-    } 
-  }); 
-
 

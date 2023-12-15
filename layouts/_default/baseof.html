@@ -13,8 +13,6 @@
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/reg-avatar.png" />
   <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="/styles/addtohomescreen.css">
-  <script type="text/javascript" src="/addtohomescreen.js"></script>
   <title>{{ .Title }}</title>
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
@@ -28,16 +26,6 @@
     {{ partial "footer" . }}
   </div>
   <script src="/js/app.js"></script>
-
-  <script>
-    if (
-      (("standalone" in window.navigator) && !window.navigator.standalone)
-      ||
-      ( !window.matchMedia('(display-mode: standalone)').matches)
-    ) {
-      addToHomescreen();
-    }
-  </script>
 
   <script>
     if ('serviceWorker' in navigator) {
