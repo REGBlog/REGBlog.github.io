@@ -173,15 +173,11 @@ if (!doNotTrack) {
     <div class="singleContent"><p>This blog post delves into the fascinating world of the Goldbach Conjecture, accompanied by a Python program I&rsquo;ve developed. We&rsquo;ll examine the code into digestible snippets and then explore the historical context of this intriguing mathematical conjecture.</p>
 <h3 id="step-by-step-python-program-breakdown">Step-by-Step Python Program Breakdown</h3>
 <p>In this section, we&rsquo;ll break down the Python code into smaller, more digestible parts, perfect for understanding the logic and functionality behind each segment.</p>
-<ol>
-<li>Initializing Variables</li>
-</ol>
+<p><strong>Initializing Variables</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>num <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> 
 </span></span><span style="display:flex;"><span>prime <span style="color:#f92672">=</span> []
 </span></span></code></pre></div><p>We begin by initializing <code>num</code> at 3, since 2 is the only even prime number and the Goldbach Conjecture applies to even integers. We also create an empty list <code>prime</code> to store the prime numbers we find.</p>
-<ol start="2">
-<li>Prime Number Checker Loop</li>
-</ol>
+<p><strong>Prime Number Checker Loop</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> num <span style="color:#f92672">!=</span> <span style="color:#ae81ff">100</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> num <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>:
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Checking for factors</span>
@@ -193,9 +189,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>            prime<span style="color:#f92672">.</span>append(num)
 </span></span><span style="display:flex;"><span>    num <span style="color:#f92672">=</span> num <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
 </span></span></code></pre></div><p>In this segment, we use a <code>while</code> loop to check each number up to 100 to see if it&rsquo;s prime. The inner <code>for</code> loop checks if the current number (<code>num</code>) is divisible by any number between 2 and itself. If a factor is found, the <code>for</code> loop breaks; if not, <code>num</code> is a prime number and gets added to our <code>prime</code> list.</p>
-<ol start="3">
-<li>Goldbach&rsquo;s Conjecture Test</li>
-</ol>
+<p><strong>Goldbach&rsquo;s Conjecture Test</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>end <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">not</span> end:
@@ -215,9 +209,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> prime:
 </span></span><span style="display:flex;"><span>        end <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
 </span></span></code></pre></div><p>Here, we have a <code>while</code> loop that continues until <code>end</code> is <code>True</code>. For each number in our <code>prime</code> list, we add it to the first number in the list and check if the sum is even. If we find a sum that isn&rsquo;t even, we print &ldquo;STOP&rdquo; and set <code>end</code> to <code>True</code>, ending the loop. After each iteration, we remove the first element from the list to test the next set of sums. The loop ends when all primes have been tested or an odd sum is found.</p>
-<ol start="4">
-<li>Completed Code</li>
-</ol>
+<p><strong>Completed Code</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Program to check if a number is prime or not</span>
 </span></span><span style="display:flex;"><span>num <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>prime <span style="color:#f92672">=</span> []
@@ -285,6 +277,10 @@ if (!doNotTrack) {
 <p>The role of programming in exploring and testing the Goldbach Conjecture has been necessary. Not only has it facilitated the extensive testing of the conjecture, but it has also enhanced our understanding of computational methods in mathematics. These methods have become crucial in exploring complex mathematical problems, offering insights that traditional mathematical approaches may not uncover.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>In conclusion, our exploration of the Goldbach Conjecture through a Python programming lens and its historical and mathematical context underscores the mysterious charm of one of number theory&rsquo;s most enduring puzzles. The programming journey provides a practical and interactive approach to understanding the conjecture, while the historical insights remind us of the rich legacy of mathematical inquiry. Despite the advances in computational methods that continue to test its bounds, the Goldbach Conjecture remains a compelling testament to the mysteries of mathematics, challenging and inspiring mathematicians and enthusiasts alike. This journey reflects the intricate relationship between mathematics and programming and highlights the enduring quest for knowledge and the unrelenting human spirit in seeking to unravel the unknown.</p>
+<h1 id="references">References</h1>
+<p>Numberphile. (2017). Goldbach Conjecture - Numberphile [YouTube Video]. In <em>YouTube</em>. <a href="https://www.youtube.com/watch?v=MxiTG96QOxw">https://www.youtube.com/watch?v=MxiTG96QOxw</a></p>
+<p>Wang, Y. (2002). <em>The Goldbach conjecture</em>. World Scientific.</p>
+<p>Wikipedia Contributors. (2021, February 6). <em>Goldbach&rsquo;s conjecture</em>. Wikipedia; Wikimedia Foundation. <a href="https://en.wikipedia.org/wiki/Goldbach%27s_conjecture">https://en.wikipedia.org/wiki/Goldbach%27s_conjecture</a></p>
 </div>
     <div class="singleRightBar">
       <body>

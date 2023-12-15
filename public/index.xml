@@ -13,7 +13,7 @@
       <link>https://reg-blog.com/goldbach/</link>
       <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
       <guid>https://reg-blog.com/goldbach/</guid>
-      <description>This blog post delves into the fascinating world of the Goldbach Conjecture, accompanied by a Python program I&amp;rsquo;ve developed. We&amp;rsquo;ll examine the code into digestible snippets and then explore the historical context of this intriguing mathematical conjecture.&#xA;Step-by-Step Python Program Breakdown In this section, we&amp;rsquo;ll break down the Python code into smaller, more digestible parts, perfect for understanding the logic and functionality behind each segment.&#xA;Initializing Variables num = 3 prime = [] We begin by initializing num at 3, since 2 is the only even prime number and the Goldbach Conjecture applies to even integers.</description>
+      <description>This blog post delves into the fascinating world of the Goldbach Conjecture, accompanied by a Python program I&amp;rsquo;ve developed. We&amp;rsquo;ll examine the code into digestible snippets and then explore the historical context of this intriguing mathematical conjecture.&#xA;Step-by-Step Python Program Breakdown In this section, we&amp;rsquo;ll break down the Python code into smaller, more digestible parts, perfect for understanding the logic and functionality behind each segment.&#xA;Initializing Variables&#xA;num = 3 prime = [] We begin by initializing num at 3, since 2 is the only even prime number and the Goldbach Conjecture applies to even integers.</description>
     </item>
     <item>
       <title>Rocking Out in Fortnites New Festival Mode: A Guitar Hero Riff in Battle Royale</title>
