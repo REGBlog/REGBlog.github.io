@@ -94,16 +94,28 @@ if (!doNotTrack) {
      
  
 
+  <a href="/categories/education">
+    # education <small>(2)</small>
+  </a>
+
+  <a href="/categories/math">
+    # math <small>(2)</small>
+  </a>
+
+  <a href="/categories/programming">
+    # programming <small>(2)</small>
+  </a>
+
+  <a href="/categories/python">
+    # python <small>(2)</small>
+  </a>
+
   <a href="/categories/bible">
     # bible <small>(1)</small>
   </a>
 
   <a href="/categories/dinner">
     # dinner <small>(1)</small>
-  </a>
-
-  <a href="/categories/education">
-    # education <small>(1)</small>
   </a>
 
   <a href="/categories/food">
@@ -114,24 +126,12 @@ if (!doNotTrack) {
     # fortnite <small>(1)</small>
   </a>
 
-  <a href="/categories/math">
-    # math <small>(1)</small>
-  </a>
-
   <a href="/categories/movies">
     # movies <small>(1)</small>
   </a>
 
   <a href="/categories/music">
     # music <small>(1)</small>
-  </a>
-
-  <a href="/categories/programming">
-    # programming <small>(1)</small>
-  </a>
-
-  <a href="/categories/python">
-    # python <small>(1)</small>
   </a>
 
   <a href="/categories/recipies">
@@ -157,24 +157,6 @@ if (!doNotTrack) {
 
   </div>
   <script src="/js/app.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    fetch('/index.json')
-    .then(response => response.json())
-    .then(posts => {
-        var fuse = new Fuse(posts, {
-            keys: ['title', 'description']
-        });
-
-        document.getElementById('search-input').addEventListener('input', function() {
-            var results = fuse.search(this.value);
-            var resultsHtml = results.map(post => `<a href="${post.item.url}">${post.item.title}</a>`).join('');
-            document.getElementById('search-results').innerHTML = resultsHtml;
-        });
-    });
-});
-
-  </script>
 
   <script>
     if ('serviceWorker' in navigator) {

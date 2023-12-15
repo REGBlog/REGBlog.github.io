@@ -96,6 +96,39 @@ if (!doNotTrack) {
   
   <div class="listItem">
     <img
+      src=/images/goldbach.webp
+      alt="Exploring the Goldbach Conjecture: A Python Programming Journey"
+      class="listItemImage"
+      loading="lazy"
+    />
+    <div class="listItemTexts">
+      <h1 class="listItemTitle">
+        <a href="https://reg-blog.com/goldbach/">Exploring the Goldbach Conjecture: A Python Programming Journey</a>
+      </h1>
+      <p class="listItemDesc">Embark on a Mathematical Adventure: Unraveling the Goldbach Conjecture with Python. Dive into our latest blog post where we explore one of the most intriguing unsolved problems in number theory - the Goldbach Conjecture. Follow along as we break down a Python program designed to test this conjecture, and delve into its rich historical background. Whether you&#39;re a math enthusiast or a coding aficionado, this post offers a unique blend of programming, history, and mathematical theory.</p>
+      <div class="listItemDetail">
+        <img src="/images/reg-avatar.png" loading="lazy" alt="" class="listItemAvatar"/>
+        <span>
+          <a href=https://reg-blog.com/authors/reese-gerjekian/>Reese Gerjekian</a>
+          </span>
+        <time>Dec 15, 2023</time>
+      </div>
+      <div class="listItemCategories">
+        
+        <a class="listItemCategory" href=https://reg-blog.com/categories/python/>Python</a>
+        
+        <a class="listItemCategory" href=https://reg-blog.com/categories/math/>Math</a>
+        
+        <a class="listItemCategory" href=https://reg-blog.com/categories/programming/>Programming</a>
+        
+        <a class="listItemCategory" href=https://reg-blog.com/categories/education/>Education</a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="listItem">
+    <img
       src=/images/fortnite-festival.webp
       alt="Rocking Out in Fortnites New Festival Mode: A Guitar Hero Riff in Battle Royale"
       class="listItemImage"
@@ -186,40 +219,27 @@ if (!doNotTrack) {
       </div>
     </div>
   </div>
-  
-  <div class="listItem">
-    <img
-      src=/images/collatz.webp
-      alt="Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture"
-      class="listItemImage"
-      loading="lazy"
-    />
-    <div class="listItemTexts">
-      <h1 class="listItemTitle">
-        <a href="https://reg-blog.com/collatz-conjecture/">Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture</a>
-      </h1>
-      <p class="listItemDesc">Join me as we delve into the captivating realms of the Collatz Conjecture, an enduring enigma in the world of mathematics. In this blog post, I explore the depths of the &#39;3x &#43; 1 problem&#39; using Python as our guide. I&#39;ll walk you through the fundamental concepts of the conjecture, followed by a detailed, step-by-step Python tutorial to unravel its mysteries visually. This post is perfect for anyone fascinated by mathematical puzzles, from students and educators to coding enthusiasts and lifelong learners. Together, we&#39;ll discover how simple mathematical rules can create complex and mesmerizing patterns, offering insights into the world of numbers and coding in a fun and engaging way.</p>
-      <div class="listItemDetail">
-        <img src="/images/reg-avatar.png" loading="lazy" alt="" class="listItemAvatar"/>
-        <span>
-          <a href=https://reg-blog.com/authors/reese-gerjekian/>Reese Gerjekian</a>
-          </span>
-        <time>Dec 9, 2023</time>
-      </div>
-      <div class="listItemCategories">
-        
-        <a class="listItemCategory" href=https://reg-blog.com/categories/python/>Python</a>
-        
-        <a class="listItemCategory" href=https://reg-blog.com/categories/math/>Math</a>
-        
-        <a class="listItemCategory" href=https://reg-blog.com/categories/programming/>Programming</a>
-        
-        <a class="listItemCategory" href=https://reg-blog.com/categories/education/>Education</a>
-        
-      </div>
-    </div>
-  </div>
    
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/authors/reese-gerjekian/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/authors/reese-gerjekian/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/authors/reese-gerjekian/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
 </div>
 
     <div class="footer">
@@ -232,24 +252,6 @@ if (!doNotTrack) {
 
   </div>
   <script src="/js/app.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    fetch('/index.json')
-    .then(response => response.json())
-    .then(posts => {
-        var fuse = new Fuse(posts, {
-            keys: ['title', 'description']
-        });
-
-        document.getElementById('search-input').addEventListener('input', function() {
-            var results = fuse.search(this.value);
-            var resultsHtml = results.map(post => `<a href="${post.item.url}">${post.item.title}</a>`).join('');
-            document.getElementById('search-results').innerHTML = resultsHtml;
-        });
-    });
-});
-
-  </script>
 
   <script>
     if ('serviceWorker' in navigator) {
