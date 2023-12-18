@@ -29,9 +29,18 @@
           <a href={{.Permalink}}>{{ .Name }}</a>
           {{end}}
         </span>
-        {{ range (.GetTerms "categories")}}
-        <a href={{.Permalink}} class="singleCategory">{{ .Name }}</a>
-        {{end}}
+        <div>
+          {{ with .Params.twitter }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-twitter-48.png" alt="Twitter" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.linkedin }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-linkedin-48.png" alt="LinkedIn" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.github }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-github-48.png" alt="Github" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.instagram }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-instagram-48.png" alt="Instagram" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.facebook }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-facebook-48.png" alt="Facebook" class="social-media-icon"></a>{{ end }}
+        </div>
+        <div>
+          {{ range (.GetTerms "categories")}}
+          <a href={{.Permalink}} class="singleCategory">{{ .Name }}</a>
+          {{end}}
+        </div>
       </div>
       <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
     </div>

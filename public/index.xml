@@ -50,5 +50,12 @@
       <guid>https://reg-blog.com/collatz-conjecture/</guid>
       <description>The Collatz Conjecture is a mathematical hypothesis that has puzzled mathematicians for decades. Also known as the &amp;ldquo;3x + 1 problem&amp;rdquo;, it involves taking any positive integer and applying a simple process: if the number is even, divide it by two; if it&amp;rsquo;s odd, triple it and add one. The conjecture states that no matter what number you start with, you will always eventually reach 1.&#xA;In this post, we&amp;rsquo;ll explore this conjecture using Python, specifically visualizing the journey of a number as it goes through this process.</description>
     </item>
+    <item>
+      <title>Install Guide</title>
+      <link>https://reg-blog.com/install/</link>
+      <pubDate>Fri, 08 Dec 2023 00:38:28 -0500</pubDate>
+      <guid>https://reg-blog.com/install/</guid>
+      <description>How to Add REG Blog to Your Home Screen For iPhone Users Using Safari: Open Safari and navigate to https://www.reg-blog.com. Tap the Share icon at the bottom of the screen (the square with an arrow pointing out). Scroll down and select &amp;lsquo;Add to Home Screen&amp;rsquo;. Rename the shortcut if desired, then tap &amp;lsquo;Add&amp;rsquo;. For Android Users Using Chrome: Open Chrome and go to https://www.reg-blog.com. Tap the three dots in the top-right corner to open the menu.</description>
+    </item>
   </channel>
 </rss>

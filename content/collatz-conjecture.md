@@ -9,6 +9,11 @@ imageBig = "/images/collatz.webp"
 categories = ["Python", "Math", "Programming", "Education"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
+twitter = "https://twitter.com/reg_blog"
+linkedin = "https://www.linkedin.com/in/rgerjeki/"
+github = "https://github.com/rgerjeki"
+instagram = "https://www.instagram.com/rgerjeki/"
+facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 ---

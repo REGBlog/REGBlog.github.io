@@ -10,6 +10,19 @@
   box-sizing: border-box;
 }
 
+#transparentButton {
+  background: none;
+  border: none; /* Optional: removes the border */
+  color: inherit; /* Optional: keeps the text color consistent with the surrounding text */
+  padding: 0;  /* Removes internal spacing */
+}
+
+.social-media-icon {
+  height: 20px; /* adjust as needed */
+  width: auto;
+  margin: 0 5px; /* adds a small space between icons */
+}
+
 body {
   background: var(--bg);
   color: var(--text);

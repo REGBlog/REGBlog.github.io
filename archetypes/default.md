@@ -9,4 +9,9 @@ imageBig = ""
 categories = ["general"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
+twitter = ""
+linkedin = ""
+github = ""
+instagram = ""
+facebook = ""
 +++
