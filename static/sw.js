@@ -36,4 +36,9 @@ precacheAndRoute([
     { url: '/404.html', revision: '383676' },
 ]);
 
+caches.keys().then(function(names) {
+    for (let name of names)
+        caches.delete(name);
+});
+
 
