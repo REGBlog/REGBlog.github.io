@@ -1,0 +1,41 @@
+<script type="application/ld+json">
+    {{ if eq .Section "posts" }}
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title }},
+      "image": {{ or .Params.image .Site.Params.image | absURL }},
+      "datePublished": {{ .or .Params.date .Site.Params.date }},
+      "dateModified": {{ .or .Params.date .Site.Params.date }},
+      "author": {
+        "@type": "Person",
+        "name": {{ .or .Params.author .Site.Params.author }}
+      },
+      "mainEntityOfPage": { "@type": "WebPage" },
+       "publisher": {
+        "@type": "Organization",
+        "name": {{ .Site.Params.header }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ .Site.Params.image }}
+        }
+      },
+      "description": {{ .Summary | plainify | safeHTML }},
+      "keywords": [{{ range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+    }
+    {{ end }}
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": {{ .Site.Params.header }},
+      "url": {{ .Site.BaseURL }},
+      "sameAs": [
+        "https://www.facebook.com/{{ .Site.Params.facebook }}",
+        "https://www.instagram.com/{{ .Site.Params.instagram }}",
+        "https://twitter.com/{{ .Site.Params.twitter }}",
+        "https://github.com/{{ .Site.Params.github }}",
+        "https://twitter.com/{{ .Site.Params.twitter }}",
+        "https://www.linkedin.com/in/{{ .Site.Params.linkedin }}"
+      ]
+    }
+</script>
