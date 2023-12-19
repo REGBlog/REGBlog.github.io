@@ -7,6 +7,11 @@
   <meta name="description" content={{or .Params.description .Site.Params.description}}>
   <meta name="keywords" content={{or .Params.keywords .Site.Params.keywords}}>
   <meta name="author" content={{or .Params.author .Site.Params.author}}>
+  <meta property="og:title" content={{or .Params.title .Site.Params.title}} />
+  <meta property="og:description" content={{or .Params.description .Site.Params.description}} />
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:image" content="{{or .Params.image .Site.Params.image}}" />
   <meta name="google-adsense-account" content="ca-pub-3576858098464651">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme_color" content="#0b1529"/>
