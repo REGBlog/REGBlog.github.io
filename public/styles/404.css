@@ -87,8 +87,8 @@ body {
   border-radius: 5px;
 }
 .btn-back:hover {
-  background: white;
-  color: #4D007D;
+  background: #0b1529;
+  color: #dee4eb;
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .btn-back {

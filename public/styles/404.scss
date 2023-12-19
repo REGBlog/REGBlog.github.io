@@ -92,8 +92,8 @@ body{
 	border-radius: 5px;
 
   &:hover{
-    background: white;
-    color: #4D007D;
+    background: #0b1529;
+    color: #dee4eb;
   }
 
   @include breakpoint(mobile){
