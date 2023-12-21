@@ -6,8 +6,29 @@
     <description>Recent content in Categories on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:59:31 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2023 09:19:42 -0500</lastBuildDate>
     <atom:link href="https://reg-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Destinations</title>
+      <link>https://reg-blog.com/categories/destinations/</link>
+      <pubDate>Thu, 21 Dec 2023 09:19:42 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/destinations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://reg-blog.com/categories/nature/</link>
+      <pubDate>Thu, 21 Dec 2023 09:19:42 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Washington</title>
+      <link>https://reg-blog.com/categories/washington/</link>
+      <pubDate>Thu, 21 Dec 2023 09:19:42 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/washington/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://reg-blog.com/categories/hugo/</link>

@@ -6,8 +6,15 @@
     <description>Recent content on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:59:31 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2023 09:19:42 -0500</lastBuildDate>
     <atom:link href="https://reg-blog.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Top 10 Favorite Places in Washington State: A Summer with AWS</title>
+      <link>https://reg-blog.com/washington-experience/</link>
+      <pubDate>Thu, 21 Dec 2023 09:19:42 -0500</pubDate>
+      <guid>https://reg-blog.com/washington-experience/</guid>
+      <description>This past summer, I embarked on an incredible journey with Amazon Web Services (AWS) in Seattle, which led me to discover some of Washington State&amp;rsquo;s most beautiful places. From serene trails and bustling urban squares to breathtaking mountain views, I&amp;rsquo;ve compiled a list of my top 10 favorite spots that capture the essence of the Pacific Northwest. Join me as I recount the adventures and scenery that made my summer in Seattle an unforgettable experience.</description>
+    </item>
     <item>
       <title>Enhancing Your Hugo Site: Integrating Social Media Links</title>
       <link>https://reg-blog.com/hugo-sm-links/</link>

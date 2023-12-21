@@ -1,0 +1,77 @@
+<!-- Image Slider HTML -->
+<div id="slider-{{ .Get "id" }}" class="slider">
+    {{ range split .Params.images "|" }}
+    <img src="{{ trim . " " }}" alt="Image Slider" class="slide" style="display: none;">
+    {{ end }}
+    <button class="slide-btn prev" onclick="changeSlide(-1, '{{ .Get "id" }}')"><</button>
+    <button class="slide-btn next" onclick="changeSlide(1, '{{ .Get "id" }}')">></button>
+</div>
+
+
+<!-- Slider CSS -->
+<style>
+    .slider {
+        position: relative;
+        max-width: 600px; /* Adjust as necessary */
+        margin: auto;
+    }
+
+    .slide {
+        display: none;
+        width: 600px;  /* Set your desired width */
+        height: 400px; /* Set your desired height */
+        object-fit: cover; /* Ensures images maintain aspect ratio and are cropped to fit */
+    }
+
+    /* Make the first slide visible */
+    .slider .slide:first-child {
+        display: block;
+    }
+
+    .slide-btn {
+        position: absolute;
+        top: 50%;
+        background-color: #f1f1f1;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: -20px; /* Adjust as necessary */
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+</style>
+
+<!-- Slider JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var sliders = document.querySelectorAll('.slider');
+        sliders.forEach(function(slider) {
+            showSlides(0, slider.id.replace('slider-', ''));
+        });
+    });
+
+    function changeSlide(n, sliderId) {
+        showSlides(slideIndex[sliderId] += n, sliderId);
+    }
+
+    var slideIndex = {};
+    
+    function showSlides(n, sliderId) {
+        var i;
+        var slides = document.querySelectorAll("#slider-" + sliderId + " .slide");
+        if (!slideIndex[sliderId]) slideIndex[sliderId] = 0;
+        if (n >= slides.length) { slideIndex[sliderId] = 0 }
+        if (n < 0) { slideIndex[sliderId] = slides.length - 1 }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndex[sliderId]].style.display = "block";  
+    }
+</script>
+
