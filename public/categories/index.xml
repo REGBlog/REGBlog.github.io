@@ -6,8 +6,29 @@
     <description>Recent content in Categories on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Dec 2023 09:19:42 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 23:42:10 -0500</lastBuildDate>
     <atom:link href="https://reg-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appetizers</title>
+      <link>https://reg-blog.com/categories/appetizers/</link>
+      <pubDate>Tue, 26 Dec 2023 23:42:10 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/appetizers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Food</title>
+      <link>https://reg-blog.com/categories/food/</link>
+      <pubDate>Tue, 26 Dec 2023 23:42:10 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/food/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recipies</title>
+      <link>https://reg-blog.com/categories/recipies/</link>
+      <pubDate>Tue, 26 Dec 2023 23:42:10 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/recipies/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Destinations</title>
       <link>https://reg-blog.com/categories/destinations/</link>
@@ -48,20 +69,6 @@
       <link>https://reg-blog.com/categories/dinner/</link>
       <pubDate>Sun, 17 Dec 2023 23:44:07 -0500</pubDate>
       <guid>https://reg-blog.com/categories/dinner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Food</title>
-      <link>https://reg-blog.com/categories/food/</link>
-      <pubDate>Sun, 17 Dec 2023 23:44:07 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/food/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recipies</title>
-      <link>https://reg-blog.com/categories/recipies/</link>
-      <pubDate>Sun, 17 Dec 2023 23:44:07 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/recipies/</guid>
       <description></description>
     </item>
     <item>
