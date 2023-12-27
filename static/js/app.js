@@ -22,3 +22,10 @@ toggle.addEventListener('click', () => {
   }
 });
 
+function toggleMenu() {
+  var links = document.querySelector(".navbar .links");
+  links.classList.toggle("active");
+}
+
+
+

@@ -3,6 +3,15 @@
   --bgSoft: #1f3050;
   --text: #dee4eb;
   --textSoft: #cbd2d9;
+  --blue: #007afe;
+  --lightgray: #bdc0c8;
+  --darkgray: #9b9b9b;
+  --yellow: #f2c71a;
+  --green: #00d957;
+  --red: #da363c;
+  --dark: #595959;
+  --shadow: 0 4px 20px 3px rgba(31, 38, 135, 0.1);
+  --rounded: 8px;
 }
 
 * {
@@ -60,6 +69,7 @@ a, title {
   position: sticky;
   top: 0;
   background-color: var(--bg);
+  z-index: 1000; /* High z-index to keep it on top */
 }
 
 .logo {
