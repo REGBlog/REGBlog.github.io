@@ -1,0 +1,473 @@
+<body>
+  <div id="instructions-modal" class="modal2">
+    <div class="game-instructions">
+      <h2>How To Play WordWrap</h2>
+      <p>1. Guess the WordWrap word in 6 tries.</p>
+      <p>2. Each guess must be a valid 5-letter word.</p>
+      <p>3. The color of the tiles will change to show how close your guess was to the word.</p>
+  
+      <h3>Examples:</h3>
+      <div class="word-example-container">
+          <div class="example-letter example-correct">R</div>
+          <p>: R is in the word and in the correct spot.</p>
+      </div>
+      <div class="word-example-container">
+          <div class="example-letter example-wrong-position">S</div>
+          <p>: S is in the word but in the wrong spot.</p>
+      </div>
+      <div class="word-example-container">
+          <div class="example-letter example-absent">E</div>
+          <p>: E is not in the word in any spot.</p>
+      </div>
+  
+      <h3>Example Word:</h3>
+      <div class="word-example-container">
+          <div class="example-letter example-correct">R</div>
+          <div class="example-letter example-absent">E</div>
+          <div class="example-letter example-absent">E</div>
+          <div class="example-letter example-wrong-position">S</div>
+          <div class="example-letter example-absent">E</div>
+      </div>
+      <button id="close-instructions">Got it!</button>
+    </div>  
+  </div>
+  <div id="menu">
+    <section id="entries">
+      <!--   first entry   -->
+      <div class="entry">
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+      </div>
+      <!--   second entry   -->
+      <div class="entry">
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+      </div>
+      <!--   third entry   -->
+      <div class="entry">
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+      </div>
+      <!--   fourth entry   -->
+      <div class="entry">
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+      </div>
+      <!--   fifth entry   -->
+      <div class="entry">
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+      </div>
+      <!--   sixth entry   -->
+      <div class="entry">
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+        <div class="letter empty"></div>
+      </div>
+  
+    </section>
+    <section id="keyboard">
+      <!--   row 1   -->
+      <div class="row">
+        <div class="key letter-key" data-key="q">Q</div>
+        <div class="key letter-key" data-key="w">W</div>
+        <div class="key letter-key" data-key="e">E</div>
+        <div class="key letter-key" data-key="r">R</div>
+        <div class="key letter-key" data-key="t">T</div>
+        <div class="key letter-key" data-key="y">Y</div>
+        <div class="key letter-key" data-key="u">U</div>
+        <div class="key letter-key" data-key="i">I</div>
+        <div class="key letter-key" data-key="o">O</div>
+        <div class="key letter-key" data-key="p">P</div>
+      </div>
+      <!--   row 2   -->
+      <div class="row">
+        <div class="key letter-key" data-key="a">A</div>
+        <div class="key letter-key" data-key="s">S</div>
+        <div class="key letter-key" data-key="d">D</div>
+        <div class="key letter-key" data-key="f">F</div>
+        <div class="key letter-key" data-key="g">G</div>
+        <div class="key letter-key" data-key="h">H</div>
+        <div class="key letter-key" data-key="j">J</div>
+        <div class="key letter-key" data-key="k">K</div>
+        <div class="key letter-key" data-key="l">L</div>
+      </div>
+      <!--   row 3   -->
+      <div class="row">
+        <div id="enter" class="key special-key" title="Enter" data-key="enter">
+          <svg id="enter-icon" viewBox="0 0 448 512" width="100" title="arrow-up">
+            <path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z" />
+          </svg>
+        </div>
+  
+        <div class="key letter-key" data-key="z">Z</div>
+        <div class="key letter-key" data-key="x">X</div>
+        <div class="key letter-key" data-key="c">C</div>
+        <div class="key letter-key" data-key="v">V</div>
+        <div class="key letter-key" data-key="b">B</div>
+        <div class="key letter-key" data-key="n">N</div>
+        <div class="key letter-key" data-key="m">M</div>
+  
+        <div id="backspace" class="key special-key" title="Backspace" data-key="backspace">
+          <svg id="backspace-icon" viewBox="0 0 640 512" width="100" title="backspace">
+            <path d="M576 64H205.26A63.97 63.97 0 0 0 160 82.75L9.37 233.37c-12.5 12.5-12.5 32.76 0 45.25L160 429.25c12 12 28.28 18.75 45.25 18.75H576c35.35 0 64-28.65 64-64V128c0-35.35-28.65-64-64-64zm-84.69 254.06c6.25 6.25 6.25 16.38 0 22.63l-22.62 22.62c-6.25 6.25-16.38 6.25-22.63 0L384 301.25l-62.06 62.06c-6.25 6.25-16.38 6.25-22.63 0l-22.62-22.62c-6.25-6.25-6.25-16.38 0-22.63L338.75 256l-62.06-62.06c-6.25-6.25-6.25-16.38 0-22.63l22.62-22.62c6.25-6.25 16.38-6.25 22.63 0L384 210.75l62.06-62.06c6.25-6.25 16.38-6.25 22.63 0l22.62 22.62c6.25 6.25 6.25 16.38 0 22.63L429.25 256l62.06 62.06z" />
+          </svg>
+        </div>
+      </div>
+      <button id="shareButton">Share my WordWrap</button>
+  
+  </div>
+  
+  <div class="modal"></div>
+  <div id="overlay"></div>
+</body>
+
+<style>
+
+  :root {
+    --bg: #0b1529;
+    --bgSoft: #1f3050;
+    --text: #dee4eb;
+    --textSoft: #cbd2d9;
+    --blue: #007afe;
+    --lightgray: #bdc0c8;
+    --darkgray: #9b9b9b;
+    --yellow: #f2c71a;
+    --green: #00d957;
+    --red: #da363c;
+    --dark: #595959;
+    --shadow: 0 4px 20px 3px rgba(31, 38, 135, 0.1);
+    --rounded: 8px;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+  }
+  
+  body.light{
+    --bg: #dee4eb;
+    --text: #0b1529;
+  }
+
+
+    /* -- Top Menu -- */
+    
+    .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    }
+    
+    .menu > .key {
+    flex: 1;
+    height: 30px;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
+    background: var(--dark);
+    border-radius: var(--rounded);
+    border: none;
+    }
+    
+    /* -- Guesses & Letters -- */
+    
+    #entries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    }
+    
+    .entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    }
+    
+    .letter {
+    width: 52px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded);
+    }
+    
+    /* -- Keyboard Styles -- */
+    
+    #keyboard {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+    }
+    
+    .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    }
+    
+    .key {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    }
+    
+    .key:active {
+    filter: brightness(80%);
+    }
+    
+    .letter-key {
+    max-width: 36px;
+    }
+    
+    .special-key {
+    max-width: 62px;
+    flex: 1.5;
+    }
+    
+    #backspace {
+    background: var(--lightgray);
+    }
+    
+    #backspace-icon {
+    fill: white;
+    width: 26px;
+    }
+    
+    #enter {
+    background: var(--blue);
+    }
+    
+    #enter-icon {
+    fill: white;
+    width: 20px;
+    }
+    
+    /* -- Different types of letters + keys -- */
+    
+    .empty {
+    background: white;
+    }
+    
+    .absent,
+    .wrong-position,
+    .correct {
+    color: white;
+    }
+    
+    .absent {
+    background: var(--darkgray);
+    }
+    
+    .wrong-position {
+    background: var(--yellow);
+    }
+    
+    .correct {
+    background: var(--green);
+    }
+    
+    /* -- Modal messages -- */
+    
+    .modal {
+      position: fixed; /* Keeps the modal in place even when scrolling */
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%) scale(0); /* Center and scale down initially */
+      width: auto; /* Adjust width as needed */
+      max-width: 500px; /* Maximum width of the modal */
+      height: auto; /* Adjust height as needed */
+      padding: 20px; /* Padding around the content */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 20;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 10px; /* Rounded corners */
+      font-weight: bold; /* Bold font weight */
+      font-size: 24px; /* Larger font size */
+      color: white; /* Text color */
+    }
+
+    .modal2 {
+      position: fixed; /* Keeps the modal in place even when scrolling */
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%) scale(0); /* Center and scale down initially */
+      width: auto; /* Adjust width as needed */
+      height: auto; /* Adjust height as needed */
+      padding: 20px; /* Padding around the content */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 20;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 10px; /* Rounded corners */
+      font-weight: bold; /* Bold font weight */
+      font-size: 24px; /* Larger font size */
+      color: white; /* Text color */
+    }
+    
+  #shareButton {
+    font-size: 18px; /* Bigger font size */
+    font-weight: bold; /* Bold font */
+    padding: 10px 20px; /* Larger padding for a bigger button */
+    background-color: #007afe; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to a pointer on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  #shareButton:hover {
+    background-color: #0056b3; /* Darker blue on hover for interaction feedback */
+  }
+  
+  .game-instructions {
+    background: var(--bg);
+    color: var(--text);
+    padding: 20px;
+    border-radius: var(--rounded);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  
+  .game-instructions h2, .game-instructions h3 {
+    color: var(--blue);
+  }
+  
+  .word-example-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .example-letter {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text);
+    border-radius: var(--rounded);
+    box-shadow: var(--shadow);
+  }
+  
+  .example-correct {
+    background: var(--green);
+  }
+  
+  .example-wrong-position {
+    background: var(--yellow);
+  }
+  
+  .example-absent {
+    background: var(--darkgray);
+  }
+
+  #close-instructions {
+    font-size: 18px; /* Bigger font size */
+    font-weight: bold; /* Bold font */
+    padding: 10px 20px; /* Larger padding for a bigger button */
+    background-color: #007afe; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to a pointer on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  #close-instructions:hover {
+    background-color: #0056b3; /* Darker blue on hover for interaction feedback */
+  }
+
+  /* Responsive adjustments */
+@media (max-width: 1100px) {
+  .modal2 {
+    width: fit-content;
+    z-index: 1000000;
+    text-align: center;
+  }
+}
+  
+</style>
+
+<script>
+  window.onload = function() {
+    // Get the instructions modal
+    var instructionsModal = document.getElementById('instructions-modal');
+
+    // Show the instructions modal by changing its scale
+    instructionsModal.style.transform = 'translate(-50%, -50%) scale(0.6)';
+
+    // Scroll the game into view
+    document.getElementById('menu').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Hide instructions modal when "Got it!" is clicked
+    document.getElementById('close-instructions').addEventListener('click', function() {
+      instructionsModal.style.transform = 'translate(-50%, -50%) scale(0)';
+    });
+  };  
+</script>
+
+
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='/js/words.js'></script><script  src="/js/wordwrap.js"></script>
