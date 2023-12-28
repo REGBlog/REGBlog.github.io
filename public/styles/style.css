@@ -96,7 +96,6 @@ a, title {
 
 .hamburger-content.active {
   display: block;
-  overflow: hidden; /* Disables scrolling */
 }
 
 .hamburger-content ul {
