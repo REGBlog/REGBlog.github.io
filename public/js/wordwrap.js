@@ -546,10 +546,12 @@ function shareResults() {
     gameState += '\n'; // New line for each row
   });
 
+  const gameUrl = 'https://www.reg-blog.com/wordwrap/'
+
   if (navigator.share) {
     navigator.share({
       title: 'My WordWrap Puzzle',
-      text: `Check out my WordWrap Puzzle!\n\n${gameState}`
+      text: `Check out my WordWrap Puzzle!\n\n${gameState}\n\nPlay here: ${gameUrl}`
     }).then(() => {
       console.log('Thanks for sharing!');
     })
