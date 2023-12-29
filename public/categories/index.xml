@@ -6,8 +6,22 @@
     <description>Recent content in Categories on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Dec 2023 10:54:33 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 09:37:10 -0500</lastBuildDate>
     <atom:link href="https://reg-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General</title>
+      <link>https://reg-blog.com/categories/general/</link>
+      <pubDate>Fri, 29 Dec 2023 09:37:10 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Years Goals</title>
+      <link>https://reg-blog.com/categories/new-years-goals/</link>
+      <pubDate>Fri, 29 Dec 2023 09:37:10 -0500</pubDate>
+      <guid>https://reg-blog.com/categories/new-years-goals/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Games</title>
       <link>https://reg-blog.com/categories/games/</link>
@@ -153,13 +167,6 @@
       <link>https://reg-blog.com/categories/sci-fi/</link>
       <pubDate>Wed, 13 Dec 2023 00:04:59 -0500</pubDate>
       <guid>https://reg-blog.com/categories/sci-fi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>general</title>
-      <link>https://reg-blog.com/categories/general/</link>
-      <pubDate>Fri, 08 Dec 2023 00:38:28 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/general/</guid>
       <description></description>
     </item>
   </channel>

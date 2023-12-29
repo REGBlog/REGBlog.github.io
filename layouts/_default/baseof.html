@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>
+    {{ if .IsHome }}
+      {{ .Site.Title }}
+    {{ else }}
+      {{ .Title }} « REG Blog
+    {{ end }}
+  </title>  
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content={{or .Params.description .Site.Params.description}}>
@@ -25,7 +32,6 @@
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/reg-avatar.png" />
   <link rel="manifest" href="/manifest.json">
-  <title>{{ .Title }}</title>
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3576858098464651"
