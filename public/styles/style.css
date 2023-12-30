@@ -273,7 +273,7 @@ a, title {
 }
 
 .listItemCategories {
-  display: flex;
+  display: block;
   gap: 10px;
 }
 
