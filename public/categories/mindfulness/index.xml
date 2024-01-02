@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on REG Blog</title>
-    <link>https://reg-blog.com/categories/life/</link>
-    <description>Recent content in Life on REG Blog</description>
+    <title>Mindfulness on REG Blog</title>
+    <link>https://reg-blog.com/categories/mindfulness/</link>
+    <description>Recent content in Mindfulness on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2024 22:13:40 -0500</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://reg-blog.com/categories/mindfulness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Present Unfolded: My Journey Through Mindful Practices</title>
       <link>https://reg-blog.com/the-present-unfolded-my-journey-through-mindful-practices/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:40 -0500</pubDate>
       <guid>https://reg-blog.com/the-present-unfolded-my-journey-through-mindful-practices/</guid>
       <description>Happy Mindful Monday, everyone! Continuing the spirit of reflection from our Serenity Sunday, today focuses on the art of living in the present. This concept, though simple in theory, can be transformative in practice. Learning to center my attention on the here and now has been key in managing stress and anxiety, leading to a more peaceful daily life.&#xA;The Present: A Gateway to Peace Harnessing the Power of Now: Often, we find ourselves entangled in the web of past memories or future worries.</description>
-    </item>
-    <item>
-      <title>Embracing the Now: a Serenity Sunday Reflection</title>
-      <link>https://reg-blog.com/embracing-the-now-a-serenity-sunday-reflection/</link>
-      <pubDate>Sun, 31 Dec 2023 08:00:12 -0500</pubDate>
-      <guid>https://reg-blog.com/embracing-the-now-a-serenity-sunday-reflection/</guid>
-      <description>Welcome to Serenity Sunday, a day dedicated to slowing down, reflecting, and finding peace in the present moment. Today, I want to share two quotes I wrote this past week. These quotes complement each other beautifully and encapsulate the essence of living mindfully and purposefully.&#xA;The Quotes The Power of Silence and Intention &amp;ldquo;Not silent from uncertainty but from intention, I anchor myself in the present, letting go of past tides and future storms, cherishing life with love and kindness in its purest form.</description>
     </item>
   </channel>
 </rss>
