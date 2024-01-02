@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REG Blog</title>
+    <link>https://reg-blog.com/</link>
+    <description>Recent content on REG Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 22:13:40 -0500</lastBuildDate>
+    <atom:link href="https://reg-blog.com/index.xml" rel="self" type="application/rss+xml" />
+    {{ range .Pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary }}</description>
+      <enclosure url="{{ .Permalink }}{{ .Params.image }}" type="image/jpeg" />
+    </item>
+    {{ end }}
+  </channel>
+</rss>
