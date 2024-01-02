@@ -15,15 +15,15 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <description>
-        <![CDATA[
-          {{ if .Params.image }}
-          <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" />
-          {{ end }}
-          {{ .Summary }}
-        ]]>
+        {{ printf "<![CDATA[%s" .Summary | safeHTML }}
+        {{ if .Params.image }}
+        <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" style="max-width:100%;height:auto;">
+        {{ end }}
+        {{ printf "]]>" | safeHTML }}
       </description>
     </item>
     {{ end }}
   </channel>
 </rss>
+
 
