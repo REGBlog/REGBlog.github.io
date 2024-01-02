@@ -14,10 +14,14 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary }}</description>
-      {{ if .Params.image }}
-      <enclosure url="{{ .Permalink }}{{ .Params.image }}" type="image/jpeg" />
-      {{ end }}
+      <description>
+        <![CDATA[
+          {{ if .Params.image }}
+          <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" />
+          {{ end }}
+          {{ .Summary }}
+        ]]>
+      </description>
     </item>
     {{ end }}
   </channel>
