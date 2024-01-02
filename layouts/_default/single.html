@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ if and (eq .Site.Params.env "PUBLIC") (ne .Site.GoogleAnalytics "") }}
+    {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+<div class="single">
+  <div class="singleHead">
+    <div class="singleHeadTexts">
+      <h1 class="singleHeadTitle">{{.Title}}</h1>
+      <p class="singleHeadDesc">{{.Params.description}}</p>
+      <div class="singleHeadDetail">
+        <img src={{.Params.avatar}} loading="lazy" alt="authorImage" class="singleAvatar">
+        <span>{{ range (.GetTerms "authors")}}
+          <a href={{.Permalink}}>{{ .Name }}</a>
+          {{end}}
+        </span>
+        <div>
+          {{ with .Params.twitter }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-twitter-48.png" alt="Twitter" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.linkedin }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-linkedin-48.png" alt="LinkedIn" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.github }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-github-48.png" alt="Github" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.instagram }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-instagram-48.png" alt="Instagram" class="social-media-icon"></a>{{ end }}
+          {{ with .Params.facebook }}<a href="{{ . }}" target="_blank"><img src="/images/Social_Media_Icons/icons8-facebook-48.png" alt="Facebook" class="social-media-icon"></a>{{ end }}
+        </div>
+        <div data-pagefind-ignore>
+          {{ range (.GetTerms "categories")}}
+          <a href={{.Permalink}} class="singleCategory">{{ .Name }}</a>
+          {{end}}
+        </div>
+      </div>
+      <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+    </div>
+    <img src={{ .Params.imageBig }} alt={{.Title}} class="singleHeadImg">
+  </div>
+  <div class="singleBottom">
+    <div class="singleContent">{{ .Content }}</div>
+    <div class="singleRightBar">
+      {{ partial "rightBar" .}}
+    </div>
+  </div>
+</div>
+{{ end }}
