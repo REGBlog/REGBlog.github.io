@@ -76,3 +76,23 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fetch and Update README
+        run: |
+          python3 /fetch-posts.py
+      - name: Commit and Push changes
+        run: |
+          git add README.md
+          git commit -m 'Update README with latest blog posts'
+          git push
