@@ -77,25 +77,24 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
 
-name: Update Blog Posts
+name: Generate Blog List
 
 on:
   push:
-    branches:
-      - main  # Trigger the workflow on pushes to the main branch
-
+  schedule:
+    - cron: "0 */1 * * *"
 jobs:
-  update-readme:
+  blog:
     runs-on: ubuntu-latest
+    name: Fetch and Generate Blog Posts
     steps:
-      - uses: actions/checkout@v2
-      - name: Fetch and Update README
-        run: |
-          python3 /fetch-posts.py
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name 'rgerjeki'
-          git config --global user.email 'reesegerjekian@icloud.com'
-          git add README.md
-          git commit -m 'Update README with latest blog posts'
-          git push
+      - uses: actions/checkout@v3
+      - name: GitHub Readme Blog Post Action
+        uses: ErrorGamer2000/github-readme-blog-post-action@v1
+        with:
+          feed_urls: "{https://www.reg-blog.com/index.xml}"
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Save Generated Blog Posts
+          skip_checkout: true
