@@ -94,6 +94,8 @@ jobs:
           python3 /fetch-posts.py
       - name: Commit and Push changes
         run: |
+          git config --global user.name 'rgerjeki'
+          git config --global user.email 'reesegerjekian@icloud.com'
           git add README.md
           git commit -m 'Update README with latest blog posts'
           git push
