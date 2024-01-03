@@ -80,8 +80,9 @@ jobs:
 name: Update Blog Posts
 
 on:
-  schedule:
-    - cron: "0 */1 * * *"
+  push:
+    branches:
+      - main  # Trigger the workflow on pushes to the main branch
 
 jobs:
   update-readme:
