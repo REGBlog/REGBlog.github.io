@@ -6,7 +6,7 @@ description = "Explore the cinematic masterpiece 'The Boys in the Boat' in our l
 keywords = "The Boys in the Boat movie, Daniel James Brown, University of Washington crew, 1936 Berlin Olympics, film adaptation, historical drama, 1930s America, Great Depression, Nazi Germany, cinematic review, underdog story, Olympic sports film, teamwork in cinema, movie day Tuesday, film analysis, crew rowing movie, sports history film, inspirational movies, cinematic storytelling, teamwork and triumph, movie blog post, film casting review, historical accuracy in film, resilience in sports, Olympic glory story, movie critique"
 image = "/images/the-boys-in-the-boat.webp"
 imageBig = "/images/the-boys-in-the-boat.webp"
-categories = ["Movie Day Tuesday", "Washington", "Rowing", "Olympics"]
+categories = ["Movies", "Washington", "Rowing", "Olympics"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
 twitter = "https://twitter.com/reg_blog"
@@ -44,3 +44,5 @@ The portrayal of rowing is treated with equal attention to detail. The film accu
 "The Boys in the Boat" is a narrative that transcends time and place, offering much more than a glimpse into a historical event or a sports triumph. It is a profound reminder of what can be achieved when individuals come together with a common purpose and a shared vision. In today's world, where division and individualism often dominate, this story stands out as a testament to the power of teamwork, resilience, and collective effort.
 
 As we close the pages of this inspiring tale, we are left with more than just the memory of an incredible sporting achievement. We carry with us the enduring message that unity, determination, and collaboration can surmount even the greatest of challenges. "The Boys in the Boat" is not just a story to be read; it is a narrative to be lived and a lesson to be carried forward in our own lives, reminding us that when we row together in harmony, we navigate the turbulent waters of life with greater strength and purpose.
+
+{{< twitter-topmovies2023 >}}

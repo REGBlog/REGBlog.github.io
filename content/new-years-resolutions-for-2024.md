@@ -29,9 +29,9 @@ Mindful Mondays are about starting the week with a calm and centered mindset. He
 
 As a film fan, Movie Day Tuesdays are my platform to celebrate the magic of movies. I'll review new releases each Tuesday, delve into classic films, and uncover hidden cinematic treasures. Expect deep dives into storytelling techniques, character development, and cinematography. I'll also explore different film genres and discuss the impact of movies on culture and society.
 
-#### Wanderlust Wednesdays
+#### Wonder Wednesdays
 
-Wanderlust Wednesdays are your passport to the world. Join me as I recount my travel experiences, share destination guides, and offer tips for seasoned travelers and those dreaming of their first adventure. These posts cover everything from budget travel hacks to luxury escapes, cultural etiquette, and sustainable tourism. It's all about capturing the essence of exploration and the joy of discovering new places.
+For Wonder Wednesdays, expect a blend of fascinating topics ranging from the marvels of science to the mysteries of history. These bite-sized posts are crafted to pique your curiosity and offer a weekly snapshot of the world's most astonishing facts and stories. Get ready to be inspired by the wonders all around us, in a format perfect for a midweek read.
 
 #### Tech Talk Thursdays
 
