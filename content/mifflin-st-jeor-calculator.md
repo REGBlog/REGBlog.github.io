@@ -18,8 +18,6 @@ facebook = "https://www.facebook.com/rgerjekian/"
 
 {{< mifflinCalculatorShortcode >}}
 
----
-
 ## Introduction to the Mifflin St. Jeor Equation
 
 The Mifflin St. Jeor equation is a widely used formula in the field of nutrition and dietetics to estimate an individual's Basal Metabolic Rate (BMR). BMR is the amount of energy (in the form of calories) that a person needs to maintain basic physiological functions while at rest, such as breathing, circulation, and cell production.
