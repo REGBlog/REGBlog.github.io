@@ -13,6 +13,7 @@ twitter = "https://twitter.com/reg_blog"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
 instagram = "https://www.instagram.com/rgerjeki/"
+letterboxd = "https://boxd.it/971m9"
 facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
