@@ -6,8 +6,29 @@
     <description>Recent content in Categories on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Mar 2024 12:04:28 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 08:47:07 -0400</lastBuildDate>
     <atom:link href="https://reg-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finance</title>
+      <link>https://reg-blog.com/categories/finance/</link>
+      <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
+      <guid>https://reg-blog.com/categories/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>https://reg-blog.com/categories/general/</link>
+      <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
+      <guid>https://reg-blog.com/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://reg-blog.com/categories/math/</link>
+      <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
+      <guid>https://reg-blog.com/categories/math/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Movies</title>
       <link>https://reg-blog.com/categories/movies/</link>
@@ -121,13 +142,6 @@
       <description></description>
     </item>
     <item>
-      <title>General</title>
-      <link>https://reg-blog.com/categories/general/</link>
-      <pubDate>Fri, 29 Dec 2023 09:37:10 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/general/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>New Years Goals</title>
       <link>https://reg-blog.com/categories/new-years-goals/</link>
       <pubDate>Fri, 29 Dec 2023 09:37:10 -0500</pubDate>
@@ -202,13 +216,6 @@
       <link>https://reg-blog.com/categories/education/</link>
       <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
       <guid>https://reg-blog.com/categories/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math</title>
-      <link>https://reg-blog.com/categories/math/</link>
-      <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/math/</guid>
       <description></description>
     </item>
     <item>

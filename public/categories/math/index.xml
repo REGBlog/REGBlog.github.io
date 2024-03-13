@@ -6,8 +6,15 @@
     <description>Recent content in Math on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 03:50:43 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 08:47:07 -0400</lastBuildDate>
     <atom:link href="https://reg-blog.com/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Savings Account Calculator</title>
+      <link>https://reg-blog.com/savings-account-calculator/</link>
+      <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
+      <guid>https://reg-blog.com/savings-account-calculator/</guid>
+      <description> Salary (yearly): Savings Percentage (%): APY (%): Years: Annual Raise (%): Calculate and Graph </description>
+    </item>
     <item>
       <title>Exploring the Goldbach Conjecture: A Python Programming Journey</title>
       <link>https://reg-blog.com/goldbach/</link>
