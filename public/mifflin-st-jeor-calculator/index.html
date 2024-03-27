@@ -99,7 +99,7 @@ if (!doNotTrack) {
     },
     "image": "/images/MifflinCalculator.png",
     "url" : "https:\/\/reg-blog.com\/mifflin-st-jeor-calculator\/",
-    "wordCount" : "433",
+    "wordCount" : "434",
     "genre" : [ "Health" , "Nutrition" ],
     "keywords" : [ "Mifflin" , "St." , "Jeor," , "BMR" , "Calculator," , "Nutrition," , "REG" , "Blog," , "Reese" , "Gerjekian" ]
 }
@@ -326,8 +326,8 @@ if (!doNotTrack) {
           <th>Calories/day</th>
         </tr>
         <tr>
-            <td>Bedridden</td>
-            <td id="bedridden"></td>
+            <td>Base BMR</td>
+            <td id="base"></td>
         </tr>
         <tr>
           <td>Sedentary (little or no exercise)</td>
@@ -387,7 +387,7 @@ if (!doNotTrack) {
       var calculationIdealWeight = idealWeightUnit === 'kg' ? idealWeight : idealWeight * 0.45359237;
   
       var activityLevels = [
-          "Bedridden",
+          "Base BMR",
           "Sedentary (little or no exercise)",
           "Lightly active (light exercise/sports 1-3 days/week)",
           "Moderately active (moderate exercise/sports 3-5 days/week)",
@@ -475,7 +475,7 @@ if (!doNotTrack) {
         "Very active (hard exercise/sports 6-7 days a week)": 1.725,
         "Extra active (very hard exercise/sports & physical job)": 1.9
       };
-      document.getElementById('bedridden').innerText = bmr.toFixed(2);
+      document.getElementById('base').innerText = bmr.toFixed(2);
       document.getElementById('sedentary').innerText = (bmr * activityLevels["Sedentary (little or no exercise)"]).toFixed(2);
       document.getElementById('lightlyActive').innerText = (bmr * activityLevels["Lightly active (light exercise/sports 1-3 days/week)"]).toFixed(2);
       document.getElementById('moderatelyActive').innerText = (bmr * activityLevels["Moderately active (moderate exercise/sports 3-5 days/week)"]).toFixed(2);
