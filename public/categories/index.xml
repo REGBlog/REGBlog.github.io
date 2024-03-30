@@ -6,8 +6,22 @@
     <description>Recent content in Categories on REG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Mar 2024 13:45:14 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2024 20:50:38 -0400</lastBuildDate>
     <atom:link href="https://reg-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Cloud</title>
+      <link>https://reg-blog.com/categories/aws-cloud/</link>
+      <pubDate>Fri, 29 Mar 2024 20:50:38 -0400</pubDate>
+      <guid>https://reg-blog.com/categories/aws-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sports</title>
+      <link>https://reg-blog.com/categories/sports/</link>
+      <pubDate>Fri, 29 Mar 2024 20:50:38 -0400</pubDate>
+      <guid>https://reg-blog.com/categories/sports/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Movies</title>
       <link>https://reg-blog.com/categories/movies/</link>
