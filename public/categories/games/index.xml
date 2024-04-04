@@ -10,9 +10,9 @@
     <atom:link href="https://reg-blog.com/categories/games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordWrap</title>
-      <link>https://reg-blog.com/wordwrap/</link>
+      <link>https://reg-blog.com/games/wordwrap/</link>
       <pubDate>Wed, 27 Dec 2023 10:54:33 -0500</pubDate>
-      <guid>https://reg-blog.com/wordwrap/</guid>
+      <guid>https://reg-blog.com/games/wordwrap/</guid>
       <description>How To Play WordWrap 1. Guess the WordWrap word in 6 tries.&#xA;2. Each guess must be a valid 5-letter word.&#xA;3. The color of the tiles will change to show how close your guess was to the word.&#xA;Examples: R : R is in the word and in the correct spot.&#xA;S : S is in the word but in the wrong spot.&#xA;E : E is not in the word in any spot.</description>
     </item>
   </channel>

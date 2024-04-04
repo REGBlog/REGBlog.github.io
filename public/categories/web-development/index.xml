@@ -10,9 +10,9 @@
     <atom:link href="https://reg-blog.com/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enhancing Your Hugo Site: Integrating Social Media Links</title>
-      <link>https://reg-blog.com/hugo-sm-links/</link>
+      <link>https://reg-blog.com/stem/hugo-sm-links/</link>
       <pubDate>Tue, 19 Dec 2023 00:59:31 -0500</pubDate>
-      <guid>https://reg-blog.com/hugo-sm-links/</guid>
+      <guid>https://reg-blog.com/stem/hugo-sm-links/</guid>
       <description>Welcome to the world of Hugo, where creating a dynamic and interactive website is not just for seasoned developers anymore! Integrating social media links is smart if you&amp;rsquo;re running a blog or personal website using Hugo and looking to boost engagement and reach. In this detailed guide, I&amp;rsquo;ll take you through adding social media buttons to your Hugo site. This addition is a fantastic way to enhance user engagement and a great strategy to increase your online presence.</description>
     </item>
   </channel>

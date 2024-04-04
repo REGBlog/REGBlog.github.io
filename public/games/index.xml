@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on REG Blog</title>
+    <link>https://reg-blog.com/games/</link>
+    <description>Recent content in Games on REG Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Dec 2023 10:54:33 -0500</lastBuildDate>
+    <atom:link href="https://reg-blog.com/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordWrap</title>
+      <link>https://reg-blog.com/games/wordwrap/</link>
+      <pubDate>Wed, 27 Dec 2023 10:54:33 -0500</pubDate>
+      <guid>https://reg-blog.com/games/wordwrap/</guid>
+      <description>How To Play WordWrap 1. Guess the WordWrap word in 6 tries.&#xA;2. Each guess must be a valid 5-letter word.&#xA;3. The color of the tiles will change to show how close your guess was to the word.&#xA;Examples: R : R is in the word and in the correct spot.&#xA;S : S is in the word but in the wrong spot.&#xA;E : E is not in the word in any spot.</description>
+    </item>
+    <item>
+      <title>Rocking Out in Fortnites New Festival Mode: A Guitar Hero Riff in Battle Royale</title>
+      <link>https://reg-blog.com/games/fortnite-festival-mode/</link>
+      <pubDate>Thu, 14 Dec 2023 02:19:08 -0500</pubDate>
+      <guid>https://reg-blog.com/games/fortnite-festival-mode/</guid>
+      <description>Fortnite has always been known for pushing the envelope in gaming experiences, and their latest addition, &amp;lsquo;Festival&amp;rsquo; mode, is no exception. As a longtime fan of both Fortnite and rhythm games, I&amp;rsquo;ve been eagerly diving into this guitar-hero-style mode, and it&amp;rsquo;s been an absolute blast. Let&amp;rsquo;s delve into what makes &amp;lsquo;Festival&amp;rsquo; a hit and explore its unique features, including the eclectic mix of tracks like &amp;ldquo;Dirty Little Secret,&amp;rdquo; &amp;ldquo;Mr. Brightside,&amp;rdquo; and &amp;ldquo;Highway Tune.</description>
+    </item>
+  </channel>
+</rss>
