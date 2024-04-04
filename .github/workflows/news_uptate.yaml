@@ -1,0 +1,32 @@
+name: Update Blog with AWS News
+on:
+  schedule:
+    - cron: '0 12 * * *' # Runs every day at 12:00 PM UTC
+
+jobs:
+  update_blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Generate new blog post
+        run: python generate_post.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'Your Name'
+          git config --global user.email 'your-email@example.com'
+          git add content/posts/
+          git commit -m "Add new AWS news post"
+          git push
