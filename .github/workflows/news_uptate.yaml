@@ -1,7 +1,7 @@
 name: Update Blog with AWS News
 on:
   schedule:
-    - cron: '0 12 * * *' # Runs every day at 12:00 PM UTC
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Update to v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Update to v5
         with:
           python-version: '3.x'
 
