@@ -24,7 +24,8 @@ def create_post(news_items):
     date = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
 
     for i, (title, link) in enumerate(news_items, start=1):
-        filename = f'content/posts/{date}-{i}-{title.replace(" ", "-").lower()}.md'
+        filename = f'content/{date}-{i}-{title.replace(" ", "-").lower()}.md'
+
         with open(filename, 'w') as file:
             file.write('+++\n')
             file.write(f'title = "{title}"\n')
