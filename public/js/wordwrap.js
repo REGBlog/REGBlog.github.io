@@ -546,7 +546,7 @@ function shareResults() {
     gameState += '\n'; // New line for each row
   });
 
-  const gameUrl = 'https://www.reg-blog.com/wordwrap/'
+  const gameUrl = 'https://www.reg-blog.com/games/wordwrap/'
 
   if (navigator.share) {
     navigator.share({
