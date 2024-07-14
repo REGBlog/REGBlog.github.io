@@ -9,12 +9,10 @@ imageBig = "/images/hugo-social-media.webp"
 categories = ["Hugo", "Web Development"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 Welcome to the world of Hugo, where creating a dynamic and interactive website is not just for seasoned developers anymore! Integrating social media links is smart if you're running a blog or personal website using Hugo and looking to boost engagement and reach. In this detailed guide, I'll take you through adding social media buttons to your Hugo site. This addition is a fantastic way to enhance user engagement and a great strategy to increase your online presence. Whether you're a blogger, a hobbyist, or someone just stepping into the world of web development, this post is designed to help you seamlessly connect your Hugo site with the social media world. By the end of this guide, you'll understand how Hugo templates work and how you can modify them to add those all-important social media links, making your site more accessible and shareable. Let's dive in and start enhancing your website's connectivity!

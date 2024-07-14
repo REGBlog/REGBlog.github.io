@@ -9,12 +9,10 @@ imageBig = "/images/embrace-the-now.webp"
 categories = ["Serenity Sunday", "Quotes", "Life"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 Welcome to Serenity Sunday, a day dedicated to slowing down, reflecting, and finding peace in the present moment. Today, I want to share two quotes I wrote this past week. These quotes complement each other beautifully and encapsulate the essence of living mindfully and purposefully.

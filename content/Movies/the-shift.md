@@ -9,12 +9,10 @@ imageBig = "/images/the-shift.webp"
 categories = ["Movies", "Sci-Fi", "Bible"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 In the ever-evolving landscape of cinema, it's rare to find a film that daringly intertwines spirituality, science fiction, and profound human struggles. "The Shift," directed and written by Brock Heasley, is a unique addition to the 2023 film roster, offering a modern-day reflection of the timeless tale of Job from the Bible. In this post, we'll explore how "The Shift" reimagines the Book of Job's themes within a sci-fi setting, the challenges it presents, and the deeper meanings it conveys.

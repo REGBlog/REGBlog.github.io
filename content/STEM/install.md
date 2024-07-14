@@ -9,12 +9,10 @@ imageBig = "/images/reg-avatar.png"
 categories = ["General"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 How to Add REG Blog to Your Home Screen

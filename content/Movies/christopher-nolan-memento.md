@@ -9,12 +9,10 @@ imageBig = "/images/christopherNolanMemento.webp"
 categories = ["Movies", "Mystery"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 Christopher Nolan's "Memento" is a film that defies traditional storytelling, leaving its audience captivated and bewildered. Released in 2000, this neo-noir psychological thriller has become a hallmark of innovative filmmaking, employing a unique narrative structure that challenges the viewer's perception of time and memory.

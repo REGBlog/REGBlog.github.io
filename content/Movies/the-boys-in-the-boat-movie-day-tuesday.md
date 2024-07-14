@@ -9,12 +9,10 @@ imageBig = "/images/the-boys-in-the-boat.webp"
 categories = ["Movies", "Washington", "Rowing", "Olympics"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 In an age defined by individual achievement and personal glory, "The Boys in the Boat" emerges as a beacon of collective endeavor and shared triumph. Set against the grim backdrop of the 1930s, a period marred by the Great Depression and the ominous rise of Nazi Germany, this remarkable story unfolds. Daniel James Brown's narrative masterfully captures the essence of an era and the indomitable spirit of a group of young men from the University of Washington. 

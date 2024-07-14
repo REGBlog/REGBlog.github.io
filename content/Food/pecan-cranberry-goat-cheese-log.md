@@ -9,12 +9,10 @@ imageBig = "/images/goat-cheese-log.webp"
 categories = ["Food", "Recipies", "Appetizers"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 The holiday season is a time for warmth, cheer, and, most importantly, delicious food! If you're looking for an easy yet elegant appetizer to grace your Christmas or New Year's table, look no further than this Cranberry Pecan Goat Cheese Log. Infused with the rich flavors of mature cheddar, fresh herbs, and sweet cranberries, this dish is a delightful blend of textures and tastes to impress your guests.

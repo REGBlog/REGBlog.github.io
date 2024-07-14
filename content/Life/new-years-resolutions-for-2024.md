@@ -9,12 +9,10 @@ imageBig = "/images/2024-resolutions.webp"
 categories = ["New Years Goals", "General"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/reg_blog"
+twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
-instagram = "https://www.instagram.com/rgerjeki/"
 letterboxd = "https://boxd.it/971m9"
-facebook = "https://www.facebook.com/rgerjekian/"
 +++
 
 As REG Blog evolves, I'm excited to bring a personal touch to my contributions. While I encourage my friends and family to share their voices freely, without constraints, I've decided to set a theme for each day that will guide my writing journey. This structure is meant for my posts, offering a glimpse into my world and interests. Here's what you can expect:
