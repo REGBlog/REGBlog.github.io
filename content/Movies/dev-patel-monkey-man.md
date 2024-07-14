@@ -9,7 +9,6 @@ imageBig = "/images/monkey-man.png"
 categories = ["Movies", "Action", "Thriller"]
 authors = ["Reese Gerjekian"]
 avatar = "/images/reg-avatar.png"
-twitter = "https://twitter.com/rgerjekian"
 linkedin = "https://www.linkedin.com/in/rgerjeki/"
 github = "https://github.com/rgerjeki"
 letterboxd = "https://boxd.it/971m9"

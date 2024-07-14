@@ -16,11 +16,8 @@ paginate = 4
   dateFormat = "Jan 2, 2006"
   env = "PUBLIC"
   image = "/images/reg-avatar.png"
-  twitter = "reg_blog"
   linkedin = "rgerjeki"
   github = "rgerjeki"
-  instagram = "rgerjeki"
-  facebook = "rgerjekian"
 
 [taxonomies]
   category = "categories"
