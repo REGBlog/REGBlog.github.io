@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sports on REG Blog</title>
-    <link>https://reg-blog.com/categories/sports/</link>
+    <link>https://regblog.github.io/categories/sports/</link>
     <description>Recent content in Sports on REG Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Mar 2024 20:50:38 -0400</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/sports/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regblog.github.io/categories/sports/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revolutionizing Live Sports Broadcasting: NHL and AWS&#39;s Cloud-Based Innovation</title>
-      <link>https://reg-blog.com/stem/nhl-and-aws-cloud-based-innovation/</link>
+      <link>https://regblog.github.io/stem/nhl-and-aws-cloud-based-innovation/</link>
       <pubDate>Fri, 29 Mar 2024 20:50:38 -0400</pubDate>
-      <guid>https://reg-blog.com/stem/nhl-and-aws-cloud-based-innovation/</guid>
-      <description>The National Hockey League (NHL) has taken a significant leap forward in sports broadcasting by partnering with Amazon Web Services (AWS) to produce the first live game broadcast entirely from the cloud. This groundbreaking venture was showcased during the NHL Network&amp;rsquo;s Friday night coverage of the Capitals-Hurricanes game, marking a new era in the way live sports are produced and delivered.&#xA;A Game-Changing Collaboration The collaboration between the NHL and AWS utilized cloud technology to streamline the production process, reducing the need for a large on-site production crew.</description>
+      <guid>https://regblog.github.io/stem/nhl-and-aws-cloud-based-innovation/</guid>
+      <description>&lt;p&gt;The National Hockey League (NHL) has taken a significant leap forward in sports broadcasting by partnering with Amazon Web Services (AWS) to produce the first live game broadcast entirely from the cloud. This groundbreaking venture was showcased during the NHL Network&amp;rsquo;s Friday night coverage of the Capitals-Hurricanes game, marking a new era in the way live sports are produced and delivered.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-game-changing-collaboration&#34;&gt;A Game-Changing Collaboration&lt;/h2&gt;&#xA;&lt;p&gt;The collaboration between the NHL and AWS utilized cloud technology to streamline the production process, reducing the need for a large on-site production crew. Instead, the only dedicated personnel at the game venue were AWS employees equipped with NVIDIA encoders, while the majority of the production team, including the director and crews for replay and graphics, operated remotely from the MLB Network studio in Secaucus. This innovative approach demonstrates the flexibility of cloud-based production, as the team could have been located anywhere with an internet connection.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

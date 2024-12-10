@@ -2,304 +2,304 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on REG Blog</title>
-    <link>https://reg-blog.com/categories/</link>
+    <link>https://regblog.github.io/categories/</link>
     <description>Recent content in Categories on REG Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2024 10:57:40 -0400</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regblog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Action</title>
-      <link>https://reg-blog.com/categories/action/</link>
+      <link>https://regblog.github.io/categories/action/</link>
       <pubDate>Sun, 07 Apr 2024 10:57:40 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/action/</guid>
+      <guid>https://regblog.github.io/categories/action/</guid>
       <description></description>
     </item>
     <item>
       <title>Movies</title>
-      <link>https://reg-blog.com/categories/movies/</link>
+      <link>https://regblog.github.io/categories/movies/</link>
       <pubDate>Sun, 07 Apr 2024 10:57:40 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/movies/</guid>
+      <guid>https://regblog.github.io/categories/movies/</guid>
       <description></description>
     </item>
     <item>
       <title>Thriller</title>
-      <link>https://reg-blog.com/categories/thriller/</link>
+      <link>https://regblog.github.io/categories/thriller/</link>
       <pubDate>Sun, 07 Apr 2024 10:57:40 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/thriller/</guid>
+      <guid>https://regblog.github.io/categories/thriller/</guid>
       <description></description>
     </item>
     <item>
       <title>Horror</title>
-      <link>https://reg-blog.com/categories/horror/</link>
+      <link>https://regblog.github.io/categories/horror/</link>
       <pubDate>Fri, 29 Mar 2024 23:59:54 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/horror/</guid>
+      <guid>https://regblog.github.io/categories/horror/</guid>
       <description></description>
     </item>
     <item>
       <title>AWS Cloud</title>
-      <link>https://reg-blog.com/categories/aws-cloud/</link>
+      <link>https://regblog.github.io/categories/aws-cloud/</link>
       <pubDate>Fri, 29 Mar 2024 20:50:38 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/aws-cloud/</guid>
+      <guid>https://regblog.github.io/categories/aws-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Sports</title>
-      <link>https://reg-blog.com/categories/sports/</link>
+      <link>https://regblog.github.io/categories/sports/</link>
       <pubDate>Fri, 29 Mar 2024 20:50:38 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/sports/</guid>
+      <guid>https://regblog.github.io/categories/sports/</guid>
       <description></description>
     </item>
     <item>
       <title>Mystery</title>
-      <link>https://reg-blog.com/categories/mystery/</link>
+      <link>https://regblog.github.io/categories/mystery/</link>
       <pubDate>Wed, 20 Mar 2024 13:45:14 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/mystery/</guid>
+      <guid>https://regblog.github.io/categories/mystery/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>https://reg-blog.com/categories/finance/</link>
+      <link>https://regblog.github.io/categories/finance/</link>
       <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/finance/</guid>
+      <guid>https://regblog.github.io/categories/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>General</title>
-      <link>https://reg-blog.com/categories/general/</link>
+      <link>https://regblog.github.io/categories/general/</link>
       <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/general/</guid>
+      <guid>https://regblog.github.io/categories/general/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>https://reg-blog.com/categories/math/</link>
+      <link>https://regblog.github.io/categories/math/</link>
       <pubDate>Wed, 13 Mar 2024 08:47:07 -0400</pubDate>
-      <guid>https://reg-blog.com/categories/math/</guid>
+      <guid>https://regblog.github.io/categories/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Sci-Fi</title>
-      <link>https://reg-blog.com/categories/sci-fi/</link>
+      <link>https://regblog.github.io/categories/sci-fi/</link>
       <pubDate>Fri, 08 Mar 2024 12:04:28 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/sci-fi/</guid>
+      <guid>https://regblog.github.io/categories/sci-fi/</guid>
       <description></description>
     </item>
     <item>
       <title>Health</title>
-      <link>https://reg-blog.com/categories/health/</link>
+      <link>https://regblog.github.io/categories/health/</link>
       <pubDate>Thu, 07 Mar 2024 11:49:08 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/health/</guid>
+      <guid>https://regblog.github.io/categories/health/</guid>
       <description></description>
     </item>
     <item>
       <title>Nutrition</title>
-      <link>https://reg-blog.com/categories/nutrition/</link>
+      <link>https://regblog.github.io/categories/nutrition/</link>
       <pubDate>Thu, 07 Mar 2024 11:49:08 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/nutrition/</guid>
+      <guid>https://regblog.github.io/categories/nutrition/</guid>
       <description></description>
     </item>
     <item>
       <title>Olympics</title>
-      <link>https://reg-blog.com/categories/olympics/</link>
+      <link>https://regblog.github.io/categories/olympics/</link>
       <pubDate>Tue, 02 Jan 2024 23:57:17 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/olympics/</guid>
+      <guid>https://regblog.github.io/categories/olympics/</guid>
       <description></description>
     </item>
     <item>
       <title>Rowing</title>
-      <link>https://reg-blog.com/categories/rowing/</link>
+      <link>https://regblog.github.io/categories/rowing/</link>
       <pubDate>Tue, 02 Jan 2024 23:57:17 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/rowing/</guid>
+      <guid>https://regblog.github.io/categories/rowing/</guid>
       <description></description>
     </item>
     <item>
       <title>Washington</title>
-      <link>https://reg-blog.com/categories/washington/</link>
+      <link>https://regblog.github.io/categories/washington/</link>
       <pubDate>Tue, 02 Jan 2024 23:57:17 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/washington/</guid>
+      <guid>https://regblog.github.io/categories/washington/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://reg-blog.com/categories/life/</link>
+      <link>https://regblog.github.io/categories/life/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:40 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/life/</guid>
+      <guid>https://regblog.github.io/categories/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Mindful Monday</title>
-      <link>https://reg-blog.com/categories/mindful-monday/</link>
+      <link>https://regblog.github.io/categories/mindful-monday/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:40 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/mindful-monday/</guid>
+      <guid>https://regblog.github.io/categories/mindful-monday/</guid>
       <description></description>
     </item>
     <item>
       <title>Mindfulness</title>
-      <link>https://reg-blog.com/categories/mindfulness/</link>
+      <link>https://regblog.github.io/categories/mindfulness/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:40 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/mindfulness/</guid>
+      <guid>https://regblog.github.io/categories/mindfulness/</guid>
       <description></description>
     </item>
     <item>
       <title>Quotes</title>
-      <link>https://reg-blog.com/categories/quotes/</link>
+      <link>https://regblog.github.io/categories/quotes/</link>
       <pubDate>Sun, 31 Dec 2023 08:00:12 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/quotes/</guid>
+      <guid>https://regblog.github.io/categories/quotes/</guid>
       <description></description>
     </item>
     <item>
       <title>Serenity Sunday</title>
-      <link>https://reg-blog.com/categories/serenity-sunday/</link>
+      <link>https://regblog.github.io/categories/serenity-sunday/</link>
       <pubDate>Sun, 31 Dec 2023 08:00:12 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/serenity-sunday/</guid>
+      <guid>https://regblog.github.io/categories/serenity-sunday/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Change</title>
-      <link>https://reg-blog.com/categories/climate-change/</link>
+      <link>https://regblog.github.io/categories/climate-change/</link>
       <pubDate>Sat, 30 Dec 2023 14:30:18 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/climate-change/</guid>
+      <guid>https://regblog.github.io/categories/climate-change/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>https://reg-blog.com/categories/nature/</link>
+      <link>https://regblog.github.io/categories/nature/</link>
       <pubDate>Sat, 30 Dec 2023 14:30:18 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/nature/</guid>
+      <guid>https://regblog.github.io/categories/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>Sustainability Saturday</title>
-      <link>https://reg-blog.com/categories/sustainability-saturday/</link>
+      <link>https://regblog.github.io/categories/sustainability-saturday/</link>
       <pubDate>Sat, 30 Dec 2023 14:30:18 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/sustainability-saturday/</guid>
+      <guid>https://regblog.github.io/categories/sustainability-saturday/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://reg-blog.com/categories/technology/</link>
+      <link>https://regblog.github.io/categories/technology/</link>
       <pubDate>Sat, 30 Dec 2023 14:30:18 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/technology/</guid>
+      <guid>https://regblog.github.io/categories/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>New Years Goals</title>
-      <link>https://reg-blog.com/categories/new-years-goals/</link>
+      <link>https://regblog.github.io/categories/new-years-goals/</link>
       <pubDate>Fri, 29 Dec 2023 09:37:10 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/new-years-goals/</guid>
+      <guid>https://regblog.github.io/categories/new-years-goals/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>https://reg-blog.com/categories/games/</link>
+      <link>https://regblog.github.io/categories/games/</link>
       <pubDate>Wed, 27 Dec 2023 10:54:33 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/games/</guid>
+      <guid>https://regblog.github.io/categories/games/</guid>
       <description></description>
     </item>
     <item>
       <title>WordWrap</title>
-      <link>https://reg-blog.com/categories/wordwrap/</link>
+      <link>https://regblog.github.io/categories/wordwrap/</link>
       <pubDate>Wed, 27 Dec 2023 10:54:33 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/wordwrap/</guid>
+      <guid>https://regblog.github.io/categories/wordwrap/</guid>
       <description></description>
     </item>
     <item>
       <title>Appetizers</title>
-      <link>https://reg-blog.com/categories/appetizers/</link>
+      <link>https://regblog.github.io/categories/appetizers/</link>
       <pubDate>Tue, 26 Dec 2023 23:42:10 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/appetizers/</guid>
+      <guid>https://regblog.github.io/categories/appetizers/</guid>
       <description></description>
     </item>
     <item>
       <title>Food</title>
-      <link>https://reg-blog.com/categories/food/</link>
+      <link>https://regblog.github.io/categories/food/</link>
       <pubDate>Tue, 26 Dec 2023 23:42:10 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/food/</guid>
+      <guid>https://regblog.github.io/categories/food/</guid>
       <description></description>
     </item>
     <item>
       <title>Recipies</title>
-      <link>https://reg-blog.com/categories/recipies/</link>
+      <link>https://regblog.github.io/categories/recipies/</link>
       <pubDate>Tue, 26 Dec 2023 23:42:10 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/recipies/</guid>
+      <guid>https://regblog.github.io/categories/recipies/</guid>
       <description></description>
     </item>
     <item>
       <title>Destinations</title>
-      <link>https://reg-blog.com/categories/destinations/</link>
+      <link>https://regblog.github.io/categories/destinations/</link>
       <pubDate>Thu, 21 Dec 2023 09:19:42 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/destinations/</guid>
+      <guid>https://regblog.github.io/categories/destinations/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://reg-blog.com/categories/hugo/</link>
+      <link>https://regblog.github.io/categories/hugo/</link>
       <pubDate>Tue, 19 Dec 2023 00:59:31 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/hugo/</guid>
+      <guid>https://regblog.github.io/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Development</title>
-      <link>https://reg-blog.com/categories/web-development/</link>
+      <link>https://regblog.github.io/categories/web-development/</link>
       <pubDate>Tue, 19 Dec 2023 00:59:31 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/web-development/</guid>
+      <guid>https://regblog.github.io/categories/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Dinner</title>
-      <link>https://reg-blog.com/categories/dinner/</link>
+      <link>https://regblog.github.io/categories/dinner/</link>
       <pubDate>Sun, 17 Dec 2023 23:44:07 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/dinner/</guid>
+      <guid>https://regblog.github.io/categories/dinner/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>https://reg-blog.com/categories/education/</link>
+      <link>https://regblog.github.io/categories/education/</link>
       <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/education/</guid>
+      <guid>https://regblog.github.io/categories/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://reg-blog.com/categories/programming/</link>
+      <link>https://regblog.github.io/categories/programming/</link>
       <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/programming/</guid>
+      <guid>https://regblog.github.io/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://reg-blog.com/categories/python/</link>
+      <link>https://regblog.github.io/categories/python/</link>
       <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/python/</guid>
+      <guid>https://regblog.github.io/categories/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Fortnite</title>
-      <link>https://reg-blog.com/categories/fortnite/</link>
+      <link>https://regblog.github.io/categories/fortnite/</link>
       <pubDate>Thu, 14 Dec 2023 02:19:08 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/fortnite/</guid>
+      <guid>https://regblog.github.io/categories/fortnite/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>https://reg-blog.com/categories/music/</link>
+      <link>https://regblog.github.io/categories/music/</link>
       <pubDate>Thu, 14 Dec 2023 02:19:08 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/music/</guid>
+      <guid>https://regblog.github.io/categories/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Video Games</title>
-      <link>https://reg-blog.com/categories/video-games/</link>
+      <link>https://regblog.github.io/categories/video-games/</link>
       <pubDate>Thu, 14 Dec 2023 02:19:08 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/video-games/</guid>
+      <guid>https://regblog.github.io/categories/video-games/</guid>
       <description></description>
     </item>
     <item>
       <title>Bible</title>
-      <link>https://reg-blog.com/categories/bible/</link>
+      <link>https://regblog.github.io/categories/bible/</link>
       <pubDate>Wed, 13 Dec 2023 00:04:59 -0500</pubDate>
-      <guid>https://reg-blog.com/categories/bible/</guid>
+      <guid>https://regblog.github.io/categories/bible/</guid>
       <description></description>
     </item>
   </channel>

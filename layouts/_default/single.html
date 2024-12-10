@@ -1,7 +1,4 @@
 {{ define "main" }}
-{{ if and (eq .Site.Params.env "PUBLIC") (ne .Site.GoogleAnalytics "") }}
-    {{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
 <div class="single">
   <div class="singleHead">
     <div class="singleHeadTexts">

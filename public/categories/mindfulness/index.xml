@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mindfulness on REG Blog</title>
-    <link>https://reg-blog.com/categories/mindfulness/</link>
+    <link>https://regblog.github.io/categories/mindfulness/</link>
     <description>Recent content in Mindfulness on REG Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2024 22:13:40 -0500</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/mindfulness/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regblog.github.io/categories/mindfulness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Present Unfolded: My Journey Through Mindful Practices</title>
-      <link>https://reg-blog.com/life/the-present-unfolded-my-journey-through-mindful-practices/</link>
+      <link>https://regblog.github.io/life/the-present-unfolded-my-journey-through-mindful-practices/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:40 -0500</pubDate>
-      <guid>https://reg-blog.com/life/the-present-unfolded-my-journey-through-mindful-practices/</guid>
-      <description>Happy Mindful Monday, everyone! Continuing the spirit of reflection from our Serenity Sunday, today focuses on the art of living in the present. This concept, though simple in theory, can be transformative in practice. Learning to center my attention on the here and now has been key in managing stress and anxiety, leading to a more peaceful daily life.&#xA;The Present: A Gateway to Peace Harnessing the Power of Now: Often, we find ourselves entangled in the web of past memories or future worries.</description>
+      <guid>https://regblog.github.io/life/the-present-unfolded-my-journey-through-mindful-practices/</guid>
+      <description>&lt;p&gt;Happy Mindful Monday, everyone! Continuing the spirit of reflection from our Serenity Sunday, today focuses on the art of living in the present. This concept, though simple in theory, can be transformative in practice. Learning to center my attention on the here and now has been key in managing stress and anxiety, leading to a more peaceful daily life.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-present-a-gateway-to-peace&#34;&gt;The Present: A Gateway to Peace&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Harnessing the Power of Now&lt;/strong&gt;: Often, we find ourselves entangled in the web of past memories or future worries. However, the present moment holds a unique power to bring us peace and clarity. By anchoring our thoughts and actions in the present, we allow ourselves to engage fully with life as it unfolds, moment by moment.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

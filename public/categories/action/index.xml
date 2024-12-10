@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Action on REG Blog</title>
-    <link>https://reg-blog.com/categories/action/</link>
+    <link>https://regblog.github.io/categories/action/</link>
     <description>Recent content in Action on REG Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2024 10:57:40 -0400</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/action/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regblog.github.io/categories/action/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Patel&#39;s &#39;Monkey Man&#39;: A Tale of Vengeance and Divinity</title>
-      <link>https://reg-blog.com/movies/dev-patel-monkey-man/</link>
+      <link>https://regblog.github.io/movies/dev-patel-monkey-man/</link>
       <pubDate>Sun, 07 Apr 2024 10:57:40 -0400</pubDate>
-      <guid>https://reg-blog.com/movies/dev-patel-monkey-man/</guid>
-      <description>Directed by: Dev Patel&#xA;Starring: Dev Patel, Sharlto Copley, Pitobash, Vipin Sharma, Sikandar Kher, Adithi Kalkunte, Sobhita Dhulipala, Ashwini Kalsekar, Makrand Deshpande, Jatin Malik, Zakir Hussain&#xA;Written by: Dev Patel, Paul Angunawela, John Collee&#xA;Produced by: Dev Patel, Jomon Thomas, Jordan Peele, Win Rosenfeld, Ian Cooper, Basil Iwanyk, Erica Lee, Christine Haebler, Anjay Nagpal&#xA;Rating: ★★★★☆&#xA;In &amp;ldquo;Monkey Man,&amp;rdquo; Dev Patel takes us on a thrilling journey through the streets of Mumbai.</description>
+      <guid>https://regblog.github.io/movies/dev-patel-monkey-man/</guid>
+      <description>&lt;p&gt;Directed by: Dev Patel&lt;/p&gt;&#xA;&lt;p&gt;Starring: Dev Patel, Sharlto Copley, Pitobash, Vipin Sharma, Sikandar Kher, Adithi Kalkunte, Sobhita Dhulipala, Ashwini Kalsekar, Makrand Deshpande, Jatin Malik, Zakir Hussain&lt;/p&gt;&#xA;&lt;p&gt;Written by: Dev Patel, Paul Angunawela, John Collee&lt;/p&gt;&#xA;&lt;p&gt;Produced by: Dev Patel, Jomon Thomas, Jordan Peele, Win Rosenfeld, Ian Cooper, Basil Iwanyk, Erica Lee, Christine Haebler, Anjay Nagpal&lt;/p&gt;&#xA;&lt;p&gt;Rating: ★★★★☆&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;In &amp;ldquo;Monkey Man,&amp;rdquo; Dev Patel takes us on a thrilling journey through the streets of Mumbai. The film showcases Patel&amp;rsquo;s prowess as a director and actor and delves deep into the symbolic realms of religion and mythology, particularly focusing on the deity Hanuman.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

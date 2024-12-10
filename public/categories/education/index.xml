@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on REG Blog</title>
-    <link>https://reg-blog.com/categories/education/</link>
+    <link>https://regblog.github.io/categories/education/</link>
     <description>Recent content in Education on REG Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Dec 2023 03:50:43 -0500</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regblog.github.io/categories/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring the Goldbach Conjecture: A Python Programming Journey</title>
-      <link>https://reg-blog.com/stem/goldbach/</link>
+      <link>https://regblog.github.io/stem/goldbach/</link>
       <pubDate>Fri, 15 Dec 2023 03:50:43 -0500</pubDate>
-      <guid>https://reg-blog.com/stem/goldbach/</guid>
-      <description>This blog post delves into the fascinating world of the Goldbach Conjecture, accompanied by a Python program I&amp;rsquo;ve developed. We&amp;rsquo;ll examine the code into digestible snippets and then explore the historical context of this intriguing mathematical conjecture.&#xA;Step-by-Step Python Program Breakdown In this section, we&amp;rsquo;ll break down the Python code into smaller, more digestible parts, perfect for understanding the logic and functionality behind each segment.&#xA;Initializing Variables&#xA;num = 3 prime = [] We begin by initializing num at 3, since 2 is the only even prime number and the Goldbach Conjecture applies to even integers.</description>
+      <guid>https://regblog.github.io/stem/goldbach/</guid>
+      <description>&lt;p&gt;This blog post delves into the fascinating world of the Goldbach Conjecture, accompanied by a Python program I&amp;rsquo;ve developed. We&amp;rsquo;ll examine the code into digestible snippets and then explore the historical context of this intriguing mathematical conjecture.&lt;/p&gt;&#xA;&lt;h3 id=&#34;step-by-step-python-program-breakdown&#34;&gt;Step-by-Step Python Program Breakdown&lt;/h3&gt;&#xA;&lt;p&gt;In this section, we&amp;rsquo;ll break down the Python code into smaller, more digestible parts, perfect for understanding the logic and functionality behind each segment.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Initializing Variables&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;prime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We begin by initializing &lt;code&gt;num&lt;/code&gt; at 3, since 2 is the only even prime number and the Goldbach Conjecture applies to even integers. We also create an empty list &lt;code&gt;prime&lt;/code&gt; to store the prime numbers we find.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unlocking the Mysteries of Numbers: A Python Adventure into the Collatz Conjecture</title>
-      <link>https://reg-blog.com/stem/collatz-conjecture/</link>
+      <link>https://regblog.github.io/stem/collatz-conjecture/</link>
       <pubDate>Sat, 09 Dec 2023 19:55:01 -0500</pubDate>
-      <guid>https://reg-blog.com/stem/collatz-conjecture/</guid>
-      <description>The Collatz Conjecture is a mathematical hypothesis that has puzzled mathematicians for decades. Also known as the &amp;ldquo;3x + 1 problem&amp;rdquo;, it involves taking any positive integer and applying a simple process: if the number is even, divide it by two; if it&amp;rsquo;s odd, triple it and add one. The conjecture states that no matter what number you start with, you will always eventually reach 1.&#xA;In this post, we&amp;rsquo;ll explore this conjecture using Python, specifically visualizing the journey of a number as it goes through this process.</description>
+      <guid>https://regblog.github.io/stem/collatz-conjecture/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;The Collatz Conjecture is a mathematical hypothesis that has puzzled mathematicians for decades. Also known as the &amp;ldquo;3x + 1 problem&amp;rdquo;, it involves taking any positive integer and applying a simple process: if the number is even, divide it by two; if it&amp;rsquo;s odd, triple it and add one. The conjecture states that no matter what number you start with, you will always eventually reach 1.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we&amp;rsquo;ll explore this conjecture using Python, specifically visualizing the journey of a number as it goes through this process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

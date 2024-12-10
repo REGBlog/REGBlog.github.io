@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Olympics on REG Blog</title>
-    <link>https://reg-blog.com/categories/olympics/</link>
+    <link>https://regblog.github.io/categories/olympics/</link>
     <description>Recent content in Olympics on REG Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jan 2024 23:57:17 -0500</lastBuildDate>
-    <atom:link href="https://reg-blog.com/categories/olympics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regblog.github.io/categories/olympics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Boys in the Boat: Movie Day Tuesday</title>
-      <link>https://reg-blog.com/movies/the-boys-in-the-boat-movie-day-tuesday/</link>
+      <link>https://regblog.github.io/movies/the-boys-in-the-boat-movie-day-tuesday/</link>
       <pubDate>Tue, 02 Jan 2024 23:57:17 -0500</pubDate>
-      <guid>https://reg-blog.com/movies/the-boys-in-the-boat-movie-day-tuesday/</guid>
-      <description>In an age defined by individual achievement and personal glory, &amp;ldquo;The Boys in the Boat&amp;rdquo; emerges as a beacon of collective endeavor and shared triumph. Set against the grim backdrop of the 1930s, a period marred by the Great Depression and the ominous rise of Nazi Germany, this remarkable story unfolds. Daniel James Brown&amp;rsquo;s narrative masterfully captures the essence of an era and the indomitable spirit of a group of young men from the University of Washington.</description>
+      <guid>https://regblog.github.io/movies/the-boys-in-the-boat-movie-day-tuesday/</guid>
+      <description>&lt;p&gt;In an age defined by individual achievement and personal glory, &amp;ldquo;The Boys in the Boat&amp;rdquo; emerges as a beacon of collective endeavor and shared triumph. Set against the grim backdrop of the 1930s, a period marred by the Great Depression and the ominous rise of Nazi Germany, this remarkable story unfolds. Daniel James Brown&amp;rsquo;s narrative masterfully captures the essence of an era and the indomitable spirit of a group of young men from the University of Washington.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
