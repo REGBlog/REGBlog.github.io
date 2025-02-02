@@ -89,113 +89,16 @@
     <div class="logo">
       <a href="../../">REG Blog</a>
     </div>
-    <div class="links">
+    <div class="breadcrumb-trail">
+      <a href="../../">Home</a>
       
-      <div class="hamburger-menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-      <div class="toggle">
-        <svg
-          width="20px"
-          height="20px"
-          viewBox="-0.14 0 20.03 20.03"
-          fill="#000000"
-        >
-          <g id="moon-alt" transform="translate(-2.25 -2)">
-            <path
-              id="secondary"
-              fill="#ffe01b"
-              d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"
-            ></path>
-          </g>
-        </svg>
-        <div class="ball" ></div>
-        <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
-          <g id="sun" transform="translate(-2 -2)">
-            <circle
-              id="secondary"
-              fill="#ffe01b"
-              cx="4"
-              cy="4"
-              r="4"
-              transform="translate(8 8)"
-            ></circle>
-            <path
-              id="primary"
-              d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
-              fill="none"
-              stroke="#ffe01b"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            ></path>
-          </g>
-        </svg>
-      </div>
+        
+          &gt; <a href="../../life/">Life</a>
+        
+        &gt; <span>The Present Unfolded: My Journey Through Mindful Practices</span>
+      
     </div>
   </nav>
-
-  
-  <div class="hamburger-content">
-    <ul>
-      <li><a href="../../">Home</a></li>
-      <li><a href="../../categories">Categories</a></li>
-      <li><a href="https://reg-blog.square.site">REG Blog Shop</a></li>
-      <li class="submenu-container">
-        <div class="submenu-title">
-          Games
-          <span class="caret down"></span>
-          <span class="caret up" style="display: none;"></span>
-        </div>
-        <ul class="submenu">
-          <li><a href="../../games/wordwrap">WordWrap</a></li>
-          
-        </ul>
-      </li>
-    </ul>
-  </div>
-
-  
-
-  <script>
-    
-    document.querySelector('.hamburger-menu').addEventListener('click', function () {
-      document.querySelector('.hamburger-content').classList.toggle('active');
-      toggleScrollLock();
-    });
-
-    function toggleScrollLock() {
-      if (document.querySelector('.hamburger-content').classList.contains('active')) {
-          document.body.style.overflow = 'hidden';
-      } else {
-          document.body.style.overflow = '';
-      }
-    }
-
-    
-    document.addEventListener('click', function(event) {
-      var isClickInsideMenu = document.querySelector('.hamburger-content').contains(event.target);
-      var isClickOnHamburger = document.querySelector('.hamburger-menu').contains(event.target);
-
-      if (!isClickInsideMenu && !isClickOnHamburger && document.querySelector('.hamburger-content').classList.contains('active')) {
-          document.querySelector('.hamburger-content').classList.remove('active');
-          toggleScrollLock();
-      }
-    });
-
-    document.querySelector('.submenu-container').addEventListener('mouseover', function () {
-      document.querySelector('.caret.down').style.display = 'none';
-      document.querySelector('.caret.up').style.display = 'inline-block';
-    });
-    
-    document.querySelector('.submenu-container').addEventListener('mouseout', function () {
-      document.querySelector('.caret.down').style.display = 'inline-block';
-      document.querySelector('.caret.up').style.display = 'none';
-    });
-    
-  </script>
 </body>
 
 
