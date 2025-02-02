@@ -55,6 +55,103 @@ a, title {
   justify-content: space-between;
 }
 
+/* Hamburger Menu Styles */
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger-menu .bar {
+  height: 3px;
+  width: 100%;
+  background-color: var(--text);
+  border-radius: 2px;
+}
+
+.hamburger-content {
+  display: none;
+  position: fixed;
+  top: 100px; /* Height of the navbar */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 40vh; /* Set maximum height as 60% of the viewport height */
+  background-color: var(--bg);
+  color: var(--text);
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  overflow-y: auto; /* Allows scrolling within the menu */
+  z-index: 1000;
+}
+
+.hamburger-content.active {
+  display: block;
+}
+
+.hamburger-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: calc(1rem + 1.5vw); /* Responsive font size */
+}
+
+.hamburger-content li {
+  margin-bottom: 20px;
+}
+
+.hamburger-content a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.hamburger-content a:hover {
+  background-color: var(--blue);
+}
+
+.submenu-container {
+  position: relative; /* Keeps the submenu within the container */
+  text-align: center; /* Centers the submenu title */
+}
+
+.submenu-title {
+  cursor: pointer;
+  display: inline-block; /* Makes the title alignable by text-align */
+}
+
+.submenu {
+  display: none;
+  position: absolute; /* Positions submenu absolutely within the container */
+  left: 50%; /* Centers the submenu */
+  transform: translateX(-50%); /* Adjusts the submenu to be truly centered */
+  top: 100%; /* Positions it right below the title */
+  padding-left: 20px;
+  z-index: 100; /* Ensures it's on top of other elements */
+  white-space: nowrap; /* Prevents wrapping of submenu items */
+}
+
+.submenu-container:hover .submenu {
+  display: block; /* Shows submenu when hovering over the container */
+}
+
+.caret {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.caret.down:before {
+  content: "↲"; /* Downward caret */
+}
+
+.caret.up:before {
+  content: "↴"; /* Upward caret */
+}
+
 /* NAVBAR START */
 
 .navbar {
@@ -208,7 +305,7 @@ a, title {
   color: var(--bg);
 }
 .page-item.disabled{
-  background-color: #313845;
+  background-color: #8d95a4;
   cursor: not-allowed;
 }
 
