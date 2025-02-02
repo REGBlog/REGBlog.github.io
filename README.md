@@ -1,9 +1,9 @@
 # REG Blog
 ## 📖 Latest Blog posts
 <!-- REGBLOG:START -->
+- [Wicked &lpar;2024&rpar; Movie Review: A Spellbinding Adaptation of the Beloved Musical](https://regblog.github.io/movies/wicked/)
+- [Green Book &lpar;2018&rpar; Movie Review: A Journey of Friendship and Understanding](https://regblog.github.io/movies/green-book/)
 - [Demystifying AWS Policies with the IAM Policy Explainer Tool](https://regblog.github.io/stem/iam-policy-explainer/)
+- [Cozy Up with This Hearty Italian Bean Soup Recipe](https://regblog.github.io/food/italian-bean-soup/)
 - [Dev Patel&#39;s &#39;Monkey Man&#39;: A Tale of Vengeance and Divinity](https://regblog.github.io/movies/dev-patel-monkey-man/)
-- [Late Night With The Devil: A Sinister Journey Back to 1977](https://regblog.github.io/movies/late-night-with-the-devil/)
-- [Revolutionizing Live Sports Broadcasting: NHL and AWS&#39;s Cloud-Based Innovation](https://regblog.github.io/stem/nhl-and-aws-cloud-based-innovation/)
-- [The Mind-Bending World of Christopher Nolan&#39;s &#39;Memento&#39;](https://regblog.github.io/movies/christopher-nolan-memento/)
 <!-- REGBLOG:END -->
