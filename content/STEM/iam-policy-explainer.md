@@ -1,6 +1,6 @@
 +++
 title = 'Demystifying AWS Policies with the IAM Policy Explainer Tool'
-date = 2025-02-02T00:20:29-08:00
+date = 2025-02-01T00:20:29-08:00
 draft = false
 description = "Managing AWS IAM (Identity and Access Management) policies can be a daunting task, especially when dealing with complex JSON structures filled with conditions, operators, and resource access permissions. Policies often determine critical access rights, yet their complexity makes them prone to errors and misconfigurations. That’s where the IAM Policy Explainer comes in—a tool designed to break down AWS IAM policies into easy-to-understand explanations. In this post, I’ll walk you through what this tool does, how it works, and why it can be a game-changer for cloud engineers, developers, and security teams alike."
 keywords = ""
