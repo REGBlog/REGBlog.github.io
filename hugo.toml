@@ -4,6 +4,7 @@ title = 'REG Blog'
 googleAnalytics = "G-TKGQXYBKE4"
 enableRobotsTXT = true
 relativeURLs = true
+uglyURLs = false
 
 paginate = 4
 

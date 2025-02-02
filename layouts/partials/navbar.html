@@ -9,7 +9,7 @@
         &gt; <span>Categories</span>
       {{ else if .IsPage }}
         {{ if .Section }}
-          &gt; <a href="/{{ .Section }}/">{{ .Section | humanize }}</a>
+          &gt; <a href="/{{ .Section | lower }}/">{{ .Section | humanize }}</a>
         {{ end }}
         &gt; <span>{{ .Title }}</span>
       {{ else if .IsSection }}
