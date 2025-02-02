@@ -5,6 +5,7 @@ googleAnalytics = "G-TKGQXYBKE4"
 enableRobotsTXT = true
 relativeURLs = true
 uglyURLs = false
+disablePathToLower = false
 
 paginate = 4
 
